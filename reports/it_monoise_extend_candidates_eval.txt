@@ -1,0 +1,703 @@
+
+[MFR baseline]
+Total tokens:              2501
+Changed tokens:            186
+Changed rate:              7.44%
+Baseline acc.(LAI):        92.56
+Accuracy:                  93.80
+ERR:                       16.67
+Changed token accuracy:    25.27
+Unchanged preservation:    99.31
+Over-change rate:          0.69
+
+[Candidate generation without optional ByT5]
+valid candidate upperbound: 96.60%
+valid changed candidate upperbound: 54.30%
+valid unchanged candidate upperbound: 100.00%
+valid avg candidates/token: 1.71
+total candidate instances: 4270
+
+Decision counts:
+  copy                     2378
+  changed                  123
+  source_key               123
+  source_diacritic         103
+  source_case              93
+  source_lookup            61
+  source_mfr               61
+  source_rule              11
+  source_rule_lower        9
+  source_repeat_diacritic  2
+  source_repeat_key        2
+
+[Gold-in-candidates analysis]
+Changed tokens:                  186
+Changed gold in candidates:       101
+Changed gold missing:             85
+Changed candidate upperbound:     54.30%
+
+Unchanged tokens:                2315
+Unchanged gold in candidates:     2315
+Unchanged candidate upperbound:   100.00%
+
+Prediction errors:                182
+Errors where gold is candidate:   97
+Errors where gold is missing:     85
+Error gold-in-candidates rate:    53.30%
+
+[Changed tokens where gold is NOT in candidates]
+raw=Intercettato gold=intercettato pred=Intercettato
+  candidates=['Intercettato<original>']
+raw=pare gold=Pare pred=pare
+  candidates=['pare<case,key,lookup,mfr,original>']
+raw=abbian gold=abbiano pred=abbiamo
+  candidates=['abbian<original>', 'abbiamo<key,lookup,mfr>']
+raw=ricari… gold=ricariche pred=ricari…
+  candidates=['ricari…<original>']
+raw=cagato gold=cacato pred=cagato
+  candidates=['cagato<original>']
+raw=tokio gold=Tokio pred=tokio
+  candidates=['tokio<original>']
+raw=hotel gold=Hotel pred=hotel
+  candidates=['hotel<original>', 'ho tel<split,split_case,split_diacritic>', 'hot el<split>', 'hot El<split_case,split_diacritic>']
+raw=manda gold=Manda pred=manda
+  candidates=['manda<original>']
+raw=fosse gold=Fosse pred=fosse
+  candidates=['fosse<case,key,lookup,mfr,original>']
+raw=t' gold=ti pred=t'
+  candidates=["t'<original>"]
+raw=sapè gold=sapere pred=sapè
+  candidates=['sapè<original>']
+raw=rimanè gold=rimanere pred=rimanè
+  candidates=['rimanè<original>']
+raw=n' gold=una pred=n'
+  candidates=["n'<case,key,lookup,mfr,original>"]
+raw=Gas gold=gas pred=Gas
+  candidates=['Gas<original>']
+raw=buenooo gold=bueno pred=buenooo
+  candidates=['buenooo<original>']
+raw=quierooo gold=quiero pred=quierooo
+  candidates=['quierooo<original>']
+raw=Cmq gold=Cpmunque pred=Comunque
+  candidates=['Cmq<original>', 'Comunque<key,lookup,mfr,rule>', 'comunque<key,rule_lower>']
+raw=DIC gold=Dicembre pred=DIC
+  candidates=['DIC<original>']
+raw=du gold=del pred=du
+  candidates=['du<original>']
+raw=abiamo gold=abbiamo pred=abiamo
+  candidates=['abiamo<original>']
+raw=li gold=Li pred=li
+  candidates=['li<case,key,lookup,mfr,original>', 'lì<diacritic,key,lookup>']
+raw=devo gold=Devo pred=devo
+  candidates=['devo<case,key,lookup,mfr,original>']
+raw=outlook gold=Outlook pred=outlook
+  candidates=['outlook<original>']
+raw=ghe gold=ce pred=ghe
+  candidates=['ghe<original>']
+raw=fò gold=faccio pred=fò
+  candidates=['fò<original>']
+raw=occhiatta gold=occhiata pred=occhiatta
+  candidates=['occhiatta<original>']
+raw=SONY gold=Sony pred=SONY
+  candidates=['SONY<original>']
+raw=parlate gold=Parlate pred=parlate
+  candidates=['parlate<original>', 'parla te<split,split_case,split_diacritic>']
+raw=gago gold=Gago pred=gago
+  candidates=['gago<original>']
+raw=pepe gold=Pepe pred=pepe
+  candidates=['pepe<original>']
+raw=juve gold=Juventus pred=Juve
+  candidates=['juve<original>', 'Juve<case,diacritic,key>']
+raw=PG gold=Perugia pred=PG
+  candidates=['PG<original>']
+raw=antipolitca gold=antipolitica pred=antipolitca
+  candidates=['antipolitca<original>']
+raw=politca gold=politica pred=politca
+  candidates=['politca<original>']
+raw=ammujna gold=ammuina pred=ammujna
+  candidates=['ammujna<original>']
+raw=niall gold=Niall pred=niall
+  candidates=['niall<original>']
+raw=niall gold=Niall pred=niall
+  candidates=['niall<original>']
+raw=niall gold=Niall pred=niall
+  candidates=['niall<original>']
+raw=prefetto gold=perfetto pred=prefetto
+  candidates=['prefetto<original>']
+raw=doria gold=Doria pred=doria
+  candidates=['doria<original>']
+raw=pisapia gold=Pisapia pred=pisapia
+  candidates=['pisapia<original>']
+raw=moratti gold=Moratti pred=moratti
+  candidates=['moratti<original>']
+raw=sto gold=questo pred=sto
+  candidates=['sto<case,key,lookup,mfr,original>', 'Sto<case,diacritic,key>']
+raw=gratosoglio gold=Gratosoglio pred=gratosoglio
+  candidates=['gratosoglio<original>']
+raw=sud gold=Sud pred=sud
+  candidates=['sud<case,key,lookup,mfr,original>']
+raw=Ug... gold=UG... pred=Ug...
+  candidates=['Ug...<original>']
+raw=frà gold=fratello pred=frà
+  candidates=['frà<original>', 'fra<diacritic,key>']
+raw=es gold=esempio pred=es
+  candidates=['es<original>']
+raw=mò gold=monica pred=mò
+  candidates=['mò<original>']
+raw=btp gold=BTP pred=btp
+  candidates=['btp<original>']
+raw=al gold=all' pred=al
+  candidates=['al<case,key,lookup,mfr,original>', 'Al<case,diacritic,key>']
+raw=Terremoto gold=terremoto pred=Terremoto
+  candidates=['Terremoto<original>']
+raw=LARINO gold=Larino pred=LARINO
+  candidates=['LARINO<original>']
+raw=RHAPSODY gold=Rhapsody pred=RHAPSODY
+  candidates=['RHAPSODY<original>']
+raw=FIRE gold=Fire pred=FIRE
+  candidates=['FIRE<original>']
+raw=PAGARE gold=pagare pred=PAGARE
+  candidates=['PAGARE<original>']
+raw=CHIESA gold=Chiesa pred=CHIESA
+  candidates=['CHIESA<original>']
+raw=Rassegnarsi gold=Rassegnar si pred=Rassegnarsi
+  candidates=['Rassegnarsi<original>']
+raw=il gold=Ol pred=il
+  candidates=['il<case,key,lookup,mfr,original>', 'Il<case,diacritic,key,lookup>']
+raw=Anchio gold=Anche io pred=Anchio
+  candidates=['Anchio<original>']
+raw=Nn gold=Non pred=non
+  candidates=['Nn<original>', 'non<key,rule_lower>']
+raw=sx gold=sinistro pred=sinistra
+  candidates=['sx<original>', 'sinistra<key,lookup,mfr>']
+raw=foggia gold=Foggia pred=foggia
+  candidates=['foggia<original>']
+raw=zeman gold=Zeman pred=zeman
+  candidates=['zeman<original>']
+raw=Un gold=Un' pred=Un
+  candidates=['Un<case,key,lookup,mfr,original>', 'un<case,diacritic,key,lookup>', "un'<rule_lower>"]
+raw=pmi gold=PMI pred=pmi
+  candidates=['pmi<original>']
+raw=Uffa gold=uffa pred=Uffa
+  candidates=['Uffa<original>']
+raw=SKY gold=Sky pred=SKY
+  candidates=['SKY<original>']
+raw=my gold=My pred=my
+  candidates=['my<case,key,lookup,mfr,original>']
+raw=rai1 gold=Rai 1 pred=rai1
+  candidates=['rai1<original>', 'RAI 1<split_case,split_diacritic>']
+raw=SKY gold=Sky pred=SKY
+  candidates=['SKY<original>']
+raw=superera' gold=supererà pred=superera'
+  candidates=["superera'<original>"]
+raw=sapra' gold=saprà pred=sapra'
+  candidates=["sapra'<original>"]
+raw=gia' gold=già pred=gia'
+  candidates=["gia'<original>", "già '<split_diacritic>"]
+raw=frentani gold=Frentani pred=frentani
+  candidates=['frentani<original>']
+raw=slai gold=SLAI pred=slai
+  candidates=['slai<original>']
+raw=transloco gold=trasloco pred=transloco
+  candidates=['transloco<original>']
+raw=transloco gold=trasloco pred=transloco
+  candidates=['transloco<original>']
+raw=DDL gold=Ddl pred=DDL
+  candidates=['DDL<original>']
+raw=PORTATO gold=portato pred=PORTATO
+  candidates=['PORTATO<original>']
+
+[Error examples with gold_in_candidates]
+raw=Tempo gold=Tempo pred=tempo gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Tempo<original>', 'tempo<case,diacritic,key>']
+raw=Intercettato gold=intercettato pred=Intercettato gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['Intercettato<original>']
+raw=pare gold=Pare pred=pare gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['pare<case,key,lookup,mfr,original>']
+raw=abbian gold=abbiano pred=abbiamo gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['key', 'lookup', 'mfr']
+  candidates=['abbian<original>', 'abbiamo<key,lookup,mfr>']
+raw=ricari… gold=ricariche pred=ricari… gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['ricari…<original>']
+raw=Governo gold=governo pred=Governo gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['Governo<case,key,lookup,mfr,original>', 'governo<case,diacritic,key,lookup>']
+raw=Difficile gold=Difficile pred=difficile gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Difficile<original>', 'difficile<case,diacritic,key>']
+raw=far gold=far pred=fare gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['key', 'lookup', 'mfr']
+  candidates=['far<original>', 'fare<key,lookup,mfr>']
+raw=sarebbe gold=sarebbe pred=Sarebbe gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['sarebbe<original>', 'Sarebbe<case,diacritic,key>']
+raw=La7 gold=LA7 pred=La7 gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['La7<case,key,lookup,mfr,original>', 'LA7<case,diacritic,key>']
+raw=cagato gold=cacato pred=cagato gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['cagato<original>']
+raw=tokio gold=Tokio pred=tokio gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['tokio<original>']
+raw=hotel gold=Hotel pred=hotel gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['hotel<original>', 'ho tel<split,split_case,split_diacritic>', 'hot el<split>', 'hot El<split_case,split_diacritic>']
+raw=same gold=same pred=Same gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['same<original>', 'Same<case,diacritic,key>']
+raw=ITALIA gold=Italia pred=ITALIA gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['ITALIA<case,key,lookup,mfr,original>', 'Italia<case,diacritic,key,lookup>']
+raw=Of gold=of pred=Of gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['Of<case,key,lookup,mfr,original>', 'of<case,diacritic,key,lookup>']
+raw=Set gold=set pred=Set gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['Set<case,key,lookup,mfr,original>', 'set<case,diacritic,key,lookup>']
+raw=Si gold=Sì pred=Si gold_in_candidates=True
+  gold_sources=['diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['Si<case,key,lookup,mfr,original>', 'Sì<diacritic,key,lookup>', 'si<case,diacritic,key>', 'sì<diacritic,key>', 'sia<key>']
+raw=Pd gold=PD pred=Pd gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key', 'lookup', 'mfr']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'original']
+  candidates=['Pd<case,key,lookup,original>', 'PD<case,diacritic,key,lookup,mfr>', 'pd<case,diacritic,key>']
+raw=manda gold=Manda pred=manda gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['manda<original>']
+raw=fosse gold=Fosse pred=fosse gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['fosse<case,key,lookup,mfr,original>']
+raw=xké gold=perché pred=xké gold_in_candidates=True
+  gold_sources=['rule', 'rule_lower']
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['xké<original>', 'perché<rule,rule_lower>']
+raw=x gold=per pred=x gold_in_candidates=True
+  gold_sources=['key', 'lookup', 'mfr', 'rule', 'rule_lower']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'original']
+  candidates=['x<case,key,lookup,original>', 'per<key,lookup,mfr,rule,rule_lower>', 'X<case,diacritic,key>']
+raw=Lei gold=Lei pred=lei gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Lei<original>', 'lei<case,diacritic,key>']
+raw=u.u gold=u.u pred=U.U gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['u.u<original>', 'U.U<case,diacritic,key>']
+raw=t' gold=ti pred=t' gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=["t'<original>"]
+raw=sapè gold=sapere pred=sapè gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['sapè<original>']
+raw=rimanè gold=rimanere pred=rimanè gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['rimanè<original>']
+raw=n' gold=una pred=n' gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=["n'<case,key,lookup,mfr,original>"]
+raw=Gas gold=gas pred=Gas gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['Gas<original>']
+raw=Unitá gold=Unità pred=Unitá gold_in_candidates=True
+  gold_sources=['diacritic', 'key']
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['Unitá<original>', 'unità<diacritic,key>', 'Unità<diacritic,key>']
+raw=buenooo gold=bueno pred=buenooo gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['buenooo<original>']
+raw=italia gold=italia pred=Italia gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key', 'lookup', 'mfr']
+  candidates=['italia<original>', 'Italia<case,diacritic,key,lookup,mfr>', 'ITALIA<case,diacritic,key>']
+raw=ama gold=ama pred=Ama gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['ama<original>', 'Ama<case,diacritic,key>']
+raw=italia gold=italia pred=Italia gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key', 'lookup', 'mfr']
+  candidates=['italia<original>', 'Italia<case,diacritic,key,lookup,mfr>', 'ITALIA<case,diacritic,key>']
+raw=quierooo gold=quiero pred=quierooo gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['quierooo<original>']
+raw=e' gold=e' pred=è gold_in_candidates=True
+  gold_sources=['case', 'key', 'lookup', 'original']
+  pred_in_candidates=True
+  pred_sources=['key', 'lookup', 'mfr', 'rule', 'rule_lower']
+  candidates=["e'<case,key,lookup,original>", 'è<key,lookup,mfr,rule,rule_lower>', 'È<key>']
+raw=Cmq gold=Cpmunque pred=Comunque gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['key', 'lookup', 'mfr', 'rule']
+  candidates=['Cmq<original>', 'Comunque<key,lookup,mfr,rule>', 'comunque<key,rule_lower>']
+raw=bn gold=bene pred=bn gold_in_candidates=True
+  gold_sources=['rule', 'rule_lower']
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['bn<original>', 'bene<rule,rule_lower>']
+raw=DIC gold=Dicembre pred=DIC gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['DIC<original>']
+raw=Si gold=Sì pred=Si gold_in_candidates=True
+  gold_sources=['diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['Si<case,key,lookup,mfr,original>', 'Sì<diacritic,key,lookup>', 'si<case,diacritic,key>', 'sì<diacritic,key>', 'sia<key>']
+raw=Of gold=of pred=Of gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['Of<case,key,lookup,mfr,original>', 'of<case,diacritic,key,lookup>']
+raw=Speriamo gold=Speriamo pred=speriamo gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Speriamo<original>', 'speriamo<case,diacritic,key>', 'speriam o<split_case,split_diacritic>']
+raw=Qui gold=Qui pred=qui gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Qui<original>', 'qui<case,diacritic,key>']
+raw=cé gold=c' è pred=cé gold_in_candidates=True
+  gold_sources=['rule', 'rule_lower']
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['cé<original>', 'ce<diacritic,key>', 'Ce<diacritic,key>', "c' è<rule,rule_lower>"]
+raw=du gold=del pred=du gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['du<original>']
+raw=Bel gold=Bel pred=bel gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Bel<original>', 'bel<case,diacritic,key>']
+raw=abiamo gold=abbiamo pred=abiamo gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['abiamo<original>']
+raw=li gold=Li pred=li gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['li<case,key,lookup,mfr,original>', 'lì<diacritic,key,lookup>']
+raw=con gold=Con pred=con gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['con<case,key,lookup,mfr,original>', 'Con<case,diacritic,key>']
+raw=devo gold=Devo pred=devo gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['devo<case,key,lookup,mfr,original>']
+raw=outlook gold=Outlook pred=outlook gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['outlook<original>']
+raw=ghe gold=ce pred=ghe gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['ghe<original>']
+raw=fò gold=faccio pred=fò gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['fò<original>']
+raw=Italiani gold=Italiani pred=italiani gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key', 'lookup', 'mfr']
+  candidates=['Italiani<original>', 'italiani<case,diacritic,key,lookup,mfr>', 'Italian i<split,split_case,split_diacritic>']
+raw=ama gold=ama pred=Ama gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['ama<original>', 'Ama<case,diacritic,key>']
+raw=Ragazzi gold=Ragazzi pred=ragazzi gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Ragazzi<original>', 'ragazzi<case,diacritic,key>']
+raw=un gold=un' pred=un gold_in_candidates=True
+  gold_sources=['rule', 'rule_lower']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['un<case,key,lookup,mfr,original>', 'Un<case,diacritic,key>', "un'<rule,rule_lower>"]
+raw=occhiatta gold=occhiata pred=occhiatta gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['occhiatta<original>']
+raw=SONY gold=Sony pred=SONY gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['SONY<original>']
+raw=parlate gold=Parlate pred=parlate gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['parlate<original>', 'parla te<split,split_case,split_diacritic>']
+raw=Della gold=della pred=Della gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['Della<case,key,lookup,mfr,original>', 'della<case,diacritic,key>', 'Del la<split>', 'del la<split_case,split_diacritic>', 'dell a<split_case,split_diacritic>']
+raw=Sul gold=Sul pred=sul gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Sul<original>', 'sul<case,diacritic,key>']
+raw=far gold=far pred=fare gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['key', 'lookup', 'mfr']
+  candidates=['far<original>', 'fare<key,lookup,mfr>']
+raw=mondoooo gold=mondo pred=mondoooo gold_in_candidates=True
+  gold_sources=['repeat', 'repeat_case', 'repeat_diacritic', 'repeat_key']
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['mondoooo<original>', 'mondo<repeat,repeat_case,repeat_diacritic,repeat_key>']
+raw=parteeeeeeee gold=parte pred=parteeeeeeee gold_in_candidates=True
+  gold_sources=['repeat', 'repeat_case', 'repeat_diacritic', 'repeat_key']
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['parteeeeeeee<original>', 'parte<repeat,repeat_case,repeat_diacritic,repeat_key>']
+raw=gago gold=Gago pred=gago gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['gago<original>']
+raw=pepe gold=Pepe pred=pepe gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['pepe<original>']
+raw=juve gold=Juventus pred=Juve gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['juve<original>', 'Juve<case,diacritic,key>']
+raw=Spero gold=Spero pred=spero gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Spero<original>', 'spero<case,diacritic,key>']
+raw=Merita gold=Merita pred=merita gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Merita<original>', 'merita<case,diacritic,key>']
+raw=Km gold=Km pred=km gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Km<original>', 'km<case,diacritic,key>']
+raw=Km gold=Km pred=km gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Km<original>', 'km<case,diacritic,key>']
+raw=dalle gold=dalle pred=Dalle gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['dalle<original>', 'Dalle<case,diacritic,key>', "d' alle<split,split_case,split_diacritic>", 'dal le<split,split_case,split_diacritic>']
+raw=Vinci gold=Vinci pred=vinci gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key', 'lookup', 'mfr']
+  candidates=['Vinci<original>', 'vinci<case,diacritic,key,lookup,mfr>']
+raw=PG gold=Perugia pred=PG gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['PG<original>']
+raw=antipolitca gold=antipolitica pred=antipolitca gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['antipolitca<original>']
+raw=politca gold=politica pred=politca gold_in_candidates=False
+  gold_sources=[]
+  pred_in_candidates=True
+  pred_sources=['original']
+  candidates=['politca<original>']
+raw=Questa gold=Questa pred=questa gold_in_candidates=True
+  gold_sources=['original']
+  pred_in_candidates=True
+  pred_sources=['case', 'diacritic', 'key']
+  candidates=['Questa<original>', 'questa<case,diacritic,key>']
+raw=il gold=Il pred=il gold_in_candidates=True
+  gold_sources=['case', 'diacritic', 'key', 'lookup']
+  pred_in_candidates=True
+  pred_sources=['case', 'key', 'lookup', 'mfr', 'original']
+  candidates=['il<case,key,lookup,mfr,original>', 'Il<case,diacritic,key,lookup>']
+
+[Extended MoNoise-style IT ranker]
+Total tokens:              2501
+Changed tokens:            186
+Changed rate:              7.44%
+Baseline acc.(LAI):        92.56
+Accuracy:                  92.72
+ERR:                       2.15
+Changed token accuracy:    32.80
+Unchanged preservation:    97.54
+Over-change rate:          2.46
+
+Error examples: raw -> gold / pred
+Tempo -> Tempo / tempo
+Intercettato -> intercettato / Intercettato
+pare -> Pare / pare
+abbian -> abbiano / abbiamo
+ricari… -> ricariche / ricari…
+Governo -> governo / Governo
+Difficile -> Difficile / difficile
+far -> far / fare
+sarebbe -> sarebbe / Sarebbe
+La7 -> LA7 / La7
+cagato -> cacato / cagato
+tokio -> Tokio / tokio
+hotel -> Hotel / hotel
+same -> same / Same
+ITALIA -> Italia / ITALIA
+Of -> of / Of
+Set -> set / Set
+Si -> Sì / Si
+Pd -> PD / Pd
+manda -> Manda / manda
+fosse -> Fosse / fosse
+xké -> perché / xké
+x -> per / x
+Lei -> Lei / lei
+u.u -> u.u / U.U
+t' -> ti / t'
+sapè -> sapere / sapè
+rimanè -> rimanere / rimanè
+n' -> una / n'
+Gas -> gas / Gas
+Unitá -> Unità / Unitá
+buenooo -> bueno / buenooo
+italia -> italia / Italia
+ama -> ama / Ama
+italia -> italia / Italia
+quierooo -> quiero / quierooo
+e' -> e' / è
+Cmq -> Cpmunque / Comunque
+bn -> bene / bn
+DIC -> Dicembre / DIC
+Si -> Sì / Si
+Of -> of / Of
+Speriamo -> Speriamo / speriamo
+Qui -> Qui / qui
+cé -> c' è / cé
+du -> del / du
+Bel -> Bel / bel
+abiamo -> abbiamo / abiamo
+li -> Li / li
+con -> Con / con
+devo -> Devo / devo
+outlook -> Outlook / outlook
+ghe -> ce / ghe
+fò -> faccio / fò
+Italiani -> Italiani / italiani
+ama -> ama / Ama
+Ragazzi -> Ragazzi / ragazzi
+un -> un' / un
+occhiatta -> occhiata / occhiatta
+SONY -> Sony / SONY
+parlate -> Parlate / parlate
+Della -> della / Della
+Sul -> Sul / sul
+far -> far / fare
+mondoooo -> mondo / mondoooo
+parteeeeeeee -> parte / parteeeeeeee
+gago -> Gago / gago
+pepe -> Pepe / pepe
+juve -> Juventus / Juve
+Spero -> Spero / spero
+Merita -> Merita / merita
+Km -> Km / km
+Km -> Km / km
+dalle -> dalle / Dalle
+Vinci -> Vinci / vinci
+PG -> Perugia / PG
+antipolitca -> antipolitica / antipolitca
+politca -> politica / politca
+Questa -> Questa / questa
+il -> Il / il

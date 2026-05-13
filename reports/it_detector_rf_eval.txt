@@ -1,0 +1,165 @@
+examples: 2501
+true COPY: 2315
+true CHANGE: 186
+threshold: 0.5
+
+[IT Detector report]
+              precision    recall  f1-score   support
+
+        COPY     0.9672    0.7512    0.8456      2315
+      CHANGE     0.1807    0.6828    0.2857       186
+
+    accuracy                         0.7461      2501
+   macro avg     0.5739    0.7170    0.5657      2501
+weighted avg     0.9087    0.7461    0.8040      2501
+
+Confusion matrix:
+[[1739  576]
+ [  59  127]]
+
+Summary:
+COPY    precision=96.72 recall=75.12 f1=84.56 support=2315
+CHANGE  precision=18.07 recall=68.28 f1=28.57 support=186
+
+[False positives: predicted CHANGE but gold COPY]
+raw=@enricobertolino norm=@enricobertolino prob_change=0.518 left=RT right=:
+raw=USA norm=USA prob_change=0.621 left=dagli right=,
+raw=nessuna norm=nessuna prob_change=0.556 left=, right=protesta
+raw=risponderà norm=risponderà prob_change=0.556 left=Monti right=alle
+raw=Crepet norm=Crepet prob_change=0.574 left=di right=sul
+raw=delitto norm=delitto prob_change=0.554 left=sul right=di
+raw=Avetrana norm=Avetrana prob_change=0.575 left=di right=.
+raw=ihihihi norm=ihihihi prob_change=0.557 left=http://t.co/MXOON3vY right=vai
+raw=Laura norm=Laura prob_change=0.567 left=economia right=Pausini
+raw=Pausini norm=Pausini prob_change=0.574 left=Laura right=(
+raw=usare norm=usare prob_change=0.557 left=a right=i
+raw=#TT norm=#TT prob_change=0.529 left=i right=mammamà
+raw=mammamà norm=mammamà prob_change=0.552 left=#TT right=...
+raw=sottovalutare norm=sottovalutare prob_change=0.555 left=Difficile right=il
+raw=coscienza norm=coscienza prob_change=0.558 left=alla right=civile
+raw=italiana norm=italiana prob_change=0.560 left=democrazia right=<EOS>
+raw=Fenomenale norm=Fenomenale prob_change=0.572 left=<BOS> right=Lucia
+raw=Lucia norm=Lucia prob_change=0.572 left=Fenomenale right=Annunziata
+raw=Annunziata norm=Annunziata prob_change=0.569 left=Lucia right=:
+raw=voluto norm=voluto prob_change=0.553 left=ha right=far
+raw=far norm=far prob_change=0.611 left=voluto right=capire
+raw=capire norm=capire prob_change=0.556 left=far right=a
+raw=direttore norm=direttore prob_change=0.557 left=come right=del
+raw=Lilliput norm=Lilliput prob_change=0.575 left=di right=Gruber
+raw=ripensasse norm=ripensasse prob_change=0.554 left=ci right=l'
+raw=interim norm=interim prob_change=0.554 left=l' right=del
+raw=de norm=de prob_change=0.510 left=tg right=La7
+raw=concorrenza norm=concorrenza prob_change=0.554 left=fa right=anche
+raw=compagnie norm=compagnie prob_change=0.556 left=alle right=telefoniche
+raw=telefoniche norm=telefoniche prob_change=0.555 left=compagnie right=,
+raw=Fi norm=Fi prob_change=0.571 left=“ right=”
+raw=riservato norm=riservato prob_change=0.551 left=ha right=l'
+raw=sorpresa norm=sorpresa prob_change=0.556 left=ennesima right=a
+raw=istituti norm=istituti prob_change=0.555 left=degli right=di
+raw=credito norm=credito prob_change=0.556 left=di right=(
+raw=tracciabilità norm=tracciabilità prob_change=0.549 left=tra right=dei
+raw=http://t.co/UeA0OHCx norm=http://t.co/UeA0OHCx prob_change=0.504 left=... right=<EOS>
+raw=ricordiamoci norm=ricordiamoci prob_change=0.558 left=Ecco right=che
+raw=vaso norm=vaso prob_change=0.556 left=dal right=.
+raw=@lockedbirds norm=@lockedbirds prob_change=0.517 left=“ right=sto
+raw=riascoltando norm=riascoltando prob_change=0.558 left=sto right=i
+raw=fangirlo norm=fangirlo prob_change=0.558 left=e right=e
+raw=ricordo norm=ricordo prob_change=0.558 left=e right=i
+raw=bei norm=bei prob_change=0.559 left=i right=tempi
+raw=here norm=here prob_change=0.553 left=same right=<EOS>
+raw=Audi norm=Audi prob_change=0.576 left=anno right=non
+raw=sponsor norm=sponsor prob_change=0.558 left=uno right=del
+raw=testimone norm=testimone prob_change=0.557 left=il right=passerà
+raw=passerà norm=passerà prob_change=0.546 left=testimone right=alla
+raw=Piaggio norm=Piaggio prob_change=0.573 left=alla right=...
+raw=Apetti norm=Apetti prob_change=0.575 left=gli right=!!
+raw=Ancona norm=Ancona prob_change=0.570 left=Uil right=,
+raw=braccio norm=braccio prob_change=0.562 left=, right=di
+raw=ferro norm=ferro prob_change=0.563 left=di right=contro
+raw=http://t.co/fnnDhOEx norm=http://t.co/fnnDhOEx prob_change=0.511 left=Monti right=<EOS>
+raw=02:48 norm=02:48 prob_change=0.525 left=ITALIA right=1
+raw=Scene norm=Scene prob_change=0.573 left=<BOS> right=da
+raw=BraccialettiLive norm=BraccialettiLive prob_change=0.581 left=da right=-
+raw=http://t.co/ZOFQuaon3l norm=http://t.co/ZOFQuaon3l prob_change=0.500 left=@BraccialettiRos right=<EOS>
+raw=@Idvstaff norm=@Idvstaff prob_change=0.524 left=RT right=:
+raw=Polillo norm=Polillo prob_change=0.574 left=: right=vorrebbe
+raw=Quirinale norm=Quirinale prob_change=0.573 left=al right=.
+raw=continuando norm=continuando prob_change=0.556 left=, right=così
+raw=rischia norm=rischia prob_change=0.562 left=così right=di
+raw=apparire norm=apparire prob_change=0.562 left=di right=come
+raw=faccia norm=faccia prob_change=0.554 left=la right=sobria
+raw=sobria norm=sobria prob_change=0.557 left=faccia right=del
+raw=satrapo norm=satrapo prob_change=0.559 left=del right=peccatore
+raw=peccatore norm=peccatore prob_change=0.560 left=satrapo right=<EOS>
+raw=@SurFilWave norm=@SurFilWave prob_change=0.524 left=#nomonti right=@TullioApi
+raw=@TullioApi norm=@TullioApi prob_change=0.528 left=@SurFilWave right=@GiorgiaUlgiati
+raw=@GiorgiaUlgiati norm=@GiorgiaUlgiati prob_change=0.521 left=@TullioApi right=@valesalomo
+raw=@valesalomo norm=@valesalomo prob_change=0.523 left=@GiorgiaUlgiati right=@VALERIA_GENOVA
+raw=@VALERIA_GENOVA norm=@VALERIA_GENOVA prob_change=0.540 left=@valesalomo right=<EOS>
+raw=guadagna norm=guadagna prob_change=0.553 left=#Grillo right=consensi
+raw=consensi norm=consensi prob_change=0.559 left=guadagna right=e
+raw=Pieraccioni norm=Pieraccioni prob_change=0.572 left=di right=,
+raw=poteva norm=poteva prob_change=0.557 left=, right=anche
+raw=starci norm=starci prob_change=0.555 left=anche right=...
+raw=http://t.co/BeJRJPih norm=http://t.co/BeJRJPih prob_change=0.503 left=Video right=Ah
+
+[False negatives: predicted COPY but gold CHANGE]
+raw=pare norm=Pare prob_change=0.126 left=. right=gli
+raw=Governo norm=governo prob_change=0.376 left=col right=Monti
+raw=Tg1 norm=TG1 prob_change=0.485 left=del right=lei
+raw=tg norm=TG prob_change=0.427 left=del right=de
+raw=La7 norm=LA7 prob_change=0.155 left=de right=andrà
+raw=Cgil norm=CGIL prob_change=0.484 left=<BOS> right=,
+raw=Cisl norm=CISL prob_change=0.489 left=, right=,
+raw=Uil norm=UIL prob_change=0.491 left=, right=Ancona
+raw=Of norm=of prob_change=0.281 left=Prince right=Persia
+raw=Vinci norm=vinci prob_change=0.499 left=e right=il
+raw=Set norm=set prob_change=0.356 left=il right=della
+raw=Si norm=Sì prob_change=0.454 left=<BOS> right=all'
+raw=fosse norm=Fosse prob_change=0.125 left=? right=stato
+raw=sanremo norm=Sanremo prob_change=0.425 left=dopo right=..
+raw=n' norm=una prob_change=0.133 left=come right=incrostazione
+raw=Si norm=Sì prob_change=0.454 left=<BOS> right=all'
+raw=Of norm=of prob_change=0.281 left=Prince right=Persia
+raw=li norm=Li prob_change=0.306 left=. right=ho
+raw=iphone norm=iPhone prob_change=0.428 left=su right=.
+raw=con norm=Con prob_change=0.110 left=. right=sincro
+raw=devo norm=Devo prob_change=0.126 left=. right=importare
+raw=iphone norm=iPhone prob_change=0.424 left=da right=su
+raw=un norm=un' prob_change=0.109 left=date right=occhiatta
+raw=Della norm=della prob_change=0.242 left=rabbia right=gente
+raw=juve norm=Juventus prob_change=0.416 left=alla right=<EOS>
+raw=il norm=Il prob_change=0.110 left=<BOS> right=governo
+raw=La norm=la prob_change=0.217 left=: right=pasdaran
+raw=riccardi norm=Riccardi prob_change=0.421 left=vedere right=e
+raw=rossi norm=Rossi prob_change=0.426 left=e right=doria
+raw=Maggio norm=maggio prob_change=0.482 left=30 right=a
+raw=X norm=Per prob_change=0.280 left=. right=info
+raw=info norm=informazioni prob_change=0.342 left=X right=:
+raw=milano norm=Milano prob_change=0.420 left=: right==
+raw=ma norm=Ma prob_change=0.109 left=" right=basta
+raw=sto norm=questo prob_change=0.124 left=con right=gratosoglio
+raw=sud norm=Sud prob_change=0.129 left=del right=Italia
+raw=I norm=i prob_change=0.473 left=: right=leader
+raw=Cgil norm=CGIL prob_change=0.486 left=di right=,
+raw=Cisl norm=CISL prob_change=0.489 left=, right=,
+raw=Uil norm=UIL prob_change=0.492 left=, right=e
+raw=Pdl norm=PdL prob_change=0.247 left=il right=dica
+raw=al norm=all' prob_change=0.104 left=btp right=8
+raw=Si norm=Sì prob_change=0.454 left=<BOS> right=all'
+raw=EuroBANCA norm=Eurobanca prob_change=0.363 left=all' right=!
+raw=OF norm=of prob_change=0.488 left=RHAPSODY right=FIRE
+raw=mario norm=Mario prob_change=0.459 left=a right=MONTI
+raw=L' norm=l' prob_change=0.268 left=PAGARE right=ICI
+raw=ALLA norm=alla prob_change=0.495 left=ICI right=CHIESA
+raw=il norm=Ol prob_change=0.111 left=<BOS> right=bus
+raw=La norm=la prob_change=0.219 left=vita right=mossa
+raw=Un norm=Un' prob_change=0.291 left=<BOS> right=ultima
+raw=si norm=sì prob_change=0.176 left=Quello right=che
+raw=my norm=My prob_change=0.127 left=<BOS> right=name
+raw=mario norm=Mario prob_change=0.460 left=, right=#monti
+raw=Paese norm=paese prob_change=0.265 left=, right=superera'
+raw=Dall' norm=dall' prob_change=0.240 left=: right=intervista
+raw=SVILUPPO norm=sviluppo prob_change=0.496 left=DDL right=...
+raw=CI norm=ci prob_change=0.499 left=BERLUSCONI right=HA
+raw=bel norm=bell' prob_change=0.126 left=un right=8

@@ -1,0 +1,124 @@
+
+[MFR baseline]
+Total tokens:              2501
+Changed tokens:            186
+Changed rate:              7.44%
+Baseline acc.(LAI):        92.56
+Accuracy:                  93.80
+ERR:                       16.67
+Changed token accuracy:    25.27
+Unchanged preservation:    99.31
+Over-change rate:          0.69
+device: cuda
+
+[Direct ByT5 baseline]
+Total tokens:              2501
+Changed tokens:            186
+Changed rate:              7.44%
+Baseline acc.(LAI):        92.56
+Accuracy:                  2.24
+ERR:                       -1214.52
+Changed token accuracy:    4.84
+Unchanged preservation:    2.03
+Over-change rate:          97.97
+
+Hybrid decision counts:
+  detector_copy            1352
+  protected_copy           561
+  low_prob_copy            541
+  mfr_change               46
+  byt5_requested           1
+  byt5_rejected_copy       1
+
+[Hybrid: detector_mfr_byt5]
+Total tokens:              2501
+Changed tokens:            186
+Changed rate:              7.44%
+Baseline acc.(LAI):        92.56
+Accuracy:                  93.72
+ERR:                       15.59
+Changed token accuracy:    19.35
+Unchanged preservation:    99.70
+Over-change rate:          0.30
+
+Error examples: raw -> gold / pred
+Intercettato -> intercettato / Intercettato
+pare -> Pare / pare
+abbian -> abbiano / abbiamo
+ricari… -> ricariche / ricari…
+Governo -> governo / Governo
+far -> far / fare
+Tg1 -> TG1 / Tg1
+tg -> TG / tg
+de -> de / di
+La7 -> LA7 / La7
+cagato -> cacato / cagato
+tokio -> Tokio / tokio
+hotel -> Hotel / hotel
+Cgil -> CGIL / Cgil
+Cisl -> CISL / Cisl
+Uil -> UIL / Uil
+ITALIA -> Italia / ITALIA
+Of -> of / Of
+Vinci -> vinci / Vinci
+Set -> set / Set
+Si -> Sì / Si
+manda -> Manda / manda
+fosse -> Fosse / fosse
+xké -> perché / xké
+sanremo -> Sanremo / sanremo
+t' -> ti / t'
+sapè -> sapere / sapè
+rimanè -> rimanere / rimanè
+n' -> una / n'
+Gas -> gas / Gas
+Unitá -> Unità / Unitá
+buenooo -> bueno / buenooo
+quierooo -> quiero / quierooo
+e' -> e' / è
+Cmq -> Cpmunque / Comunque
+bn -> bene / bn
+DIC -> Dicembre / DIC
+Si -> Sì / Si
+Of -> of / Of
+cé -> c' è / cé
+du -> del / du
+abiamo -> abbiamo / abiamo
+li -> Li / li
+iphone -> iPhone / iphone
+con -> Con / con
+devo -> Devo / devo
+iphone -> iPhone / iphone
+outlook -> Outlook / outlook
+ghe -> ce / ghe
+fò -> faccio / fò
+un -> un' / un
+occhiatta -> occhiata / occhiatta
+SONY -> Sony / SONY
+parlate -> Parlate / parlate
+realtá -> realtà / realtá
+Della -> della / Della
+far -> far / fare
+mondoooo -> mondo / mondoooo
+parteeeeeeee -> parte / parteeeeeeee
+gago -> Gago / gago
+pepe -> Pepe / pepe
+juve -> Juventus / juve
+x -> x / per
+Vinci -> Vinci / vinci
+PG -> Perugia / PG
+antipolitca -> antipolitica / antipolitca
+politca -> politica / politca
+il -> Il / il
+La -> la / La
+ammujna -> ammuina / ammujna
+niall -> Niall / niall
+niall -> Niall / niall
+niall -> Niall / niall
+prefetto -> perfetto / prefetto
+riccardi -> Riccardi / riccardi
+rossi -> Rossi / rossi
+doria -> Doria / doria
+li' -> lì / li'
+Maggio -> maggio / Maggio
+X -> Per / X

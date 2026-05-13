@@ -1,0 +1,115 @@
+
+[MFR baseline]
+Total tokens:              2501
+Changed tokens:            186
+Changed rate:              7.44%
+Baseline acc.(LAI):        92.56
+Accuracy:                  93.80
+ERR:                       16.67
+Changed token accuracy:    25.27
+Unchanged preservation:    99.31
+Over-change rate:          0.69
+loading accept override model: ./models_it_monoise_accept_override/it_accept_override.joblib
+
+Accept decision counts:
+  base_copy                    2425
+  base_mfr_change              65
+  override_accept              11
+  accept_source_lookup         11
+  accept_source_key            11
+  accept_source_diacritic      10
+  accept_source_case           8
+  accept_source_original       1
+
+[MFR-first + learned accept override]
+Total tokens:              2501
+Changed tokens:            186
+Changed rate:              7.44%
+Baseline acc.(LAI):        92.56
+Accuracy:                  94.00
+ERR:                       19.35
+Changed token accuracy:    29.03
+Unchanged preservation:    99.22
+Over-change rate:          0.78
+
+Error examples: raw -> gold / pred
+Intercettato -> intercettato / Intercettato
+pare -> Pare / pare
+abbian -> abbiano / abbiamo
+ricari… -> ricariche / ricari…
+far -> far / fare
+tg -> TG / tg
+de -> de / di
+La7 -> LA7 / La7
+cagato -> cacato / cagato
+tokio -> Tokio / tokio
+hotel -> Hotel / hotel
+Of -> of / Of
+manda -> Manda / manda
+fosse -> Fosse / fosse
+xké -> perché / xké
+sanremo -> Sanremo / sanremo
+t' -> ti / t'
+sapè -> sapere / sapè
+rimanè -> rimanere / rimanè
+n' -> una / n'
+Gas -> gas / Gas
+Unitá -> Unità / Unitá
+buenooo -> bueno / buenooo
+italia -> italia / Italia
+italia -> italia / Italia
+quierooo -> quiero / quierooo
+Governo -> Governo / governo
+e' -> e' / è
+Cmq -> Cpmunque / Comunque
+bn -> bene / bn
+DIC -> Dicembre / DIC
+Consiglio -> Consiglio / consiglio
+Of -> of / Of
+Governo -> Governo / governo
+cé -> c' è / cé
+du -> del / du
+abiamo -> abbiamo / abiamo
+li -> Li / li
+iphone -> iPhone / iphone
+con -> Con / con
+devo -> Devo / devo
+iphone -> iPhone / iphone
+outlook -> Outlook / outlook
+ghe -> ce / ghe
+fò -> faccio / fò
+Italiani -> Italiani / italiani
+un -> un' / un
+occhiatta -> occhiata / occhiatta
+SONY -> Sony / SONY
+parlate -> Parlate / parlate
+realtá -> realtà / realtá
+Della -> della / Della
+far -> far / fare
+mondoooo -> mondo / mondoooo
+parteeeeeeee -> parte / parteeeeeeee
+gago -> Gago / gago
+pepe -> Pepe / pepe
+juve -> Juventus / juve
+x -> x / per
+Vinci -> Vinci / vinci
+PG -> Perugia / PG
+antipolitca -> antipolitica / antipolitca
+politca -> politica / politca
+il -> Il / il
+La -> la / La
+ammujna -> ammuina / ammujna
+Professor -> Professor / professor
+niall -> Niall / niall
+niall -> Niall / niall
+niall -> Niall / niall
+prefetto -> perfetto / prefetto
+riccardi -> Riccardi / riccardi
+rossi -> Rossi / rossi
+doria -> Doria / doria
+li' -> lì / li'
+X -> Per / X
+info -> informazioni / info
+pisapia -> Pisapia / pisapia
+moratti -> Moratti / moratti
+milano -> Milano / milano

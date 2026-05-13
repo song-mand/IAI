@@ -1,0 +1,112 @@
+
+[MFR baseline]
+Total tokens:              1421
+Changed tokens:            112
+Changed rate:              7.88%
+Baseline acc.(LAI):        92.12
+Accuracy:                  93.88
+ERR:                       22.32
+Changed token accuracy:    24.11
+Unchanged preservation:    99.85
+Over-change rate:          0.15
+device: cuda
+
+[Direct ByT5 baseline]
+Total tokens:              1421
+Changed tokens:            112
+Changed rate:              7.88%
+Baseline acc.(LAI):        92.12
+Accuracy:                  80.44
+ERR:                       -148.21
+Changed token accuracy:    76.79
+Unchanged preservation:    80.75
+Over-change rate:          19.25
+
+Hybrid decision counts:
+  detector_copy            1198
+  protected_copy           170
+  mfr_change               30
+  byt5_requested           23
+  byt5_change              23
+
+[Hybrid: detector_mfr_byt5]
+Total tokens:              1421
+Changed tokens:            112
+Changed rate:              7.88%
+Baseline acc.(LAI):        92.12
+Accuracy:                  95.14
+ERR:                       38.39
+Changed token accuracy:    40.18
+Unchanged preservation:    99.85
+Over-change rate:          0.15
+
+Error examples: raw -> gold / pred
+piemontese -> piamontesa / piemontese
+graciaas -> gracias / graciaas
+traere -> traeré / traere
+regalilloss -> regalillos / regalilloss
+pasarmeloo -> pasármelo / pasarmeloo
+mui -> muy / mui
+uiii -> uy / ui
+lio -> lío / lio
+lio -> lío / lio
+jujuuuuu -> ju / lío
+isabel -> isabella / isabel
+metias -> metías / metias
+devolvia -> devolvía / devolvia
+lasombradelolivo -> la_sombra_del_olivo / lasombradelolivo
+pedrin -> pedrín / pedrin
+merecias -> merecías / merecias
+tds -> todos / tds
+compi -> compañero / compi
+semama -> semana / semama
+tranquileo -> tranquilidad / tranquileo
+siges -> sigues / siges
+alvaero -> alvaro / alvaero
+tss -> chis / tss
+amoss -> vamos / amoss
+muack -> mua / muack
+aggg -> ah / aggg
+jaen -> jaén / jaen
+catastrofica -> catastrófica / catastrofica
+poblacion -> población / poblacion
+mñna -> mañana / mñna
+tenho -> tengo / tenho
+pa -> pa / para
+huuuuyy -> uy / huuuuyy
+firefoxos -> firefox_os / firefoxos
+primoo -> primo / primoo
+ajajajjaja -> ja / ajajajjaja
+partoo -> parto / partoo
+cenitaaaaa -> cenita / jldytdtlog
+twitaaaah -> twitter / twitaaaah
+aseh -> haces / aseh
+haria -> haría / haria
+pechá -> pechada / pechá
+sandungero -> sandunguero / sandungero
+cumpleee -> cumpleaños / cumpleee
+mio -> mío / mio
+libradoo -> librado / libradoo
+nochess -> noches / nochess
+muacks -> mua / muacks
+tssss -> chis / jajajaja
+dspue -> después / dspue
+asiquee -> así_que / asiquee
+hooy -> hoy / hooy
+envie -> envíe / envie
+jajajaj -> jajajaj / ja
+puebli -> pueblo / puebli
+rt's -> rts / rt's
+boooonico -> bonico / boooonico
+jajajajajes -> ja / jajajajajes
+tequieroo -> te_quiero / tequieroo
+siii -> si / sí
+graciias -> gracias / graciias
+claroo -> claro / claroo
+invitooo -> invito / te
+tee -> te / tee
+graciias -> gracias / graciias
+teneis -> tenéis / teneis
+señooooor -> señor / señooooor
+ptos -> puntos / ptos
+rbts -> rebotes / rbts

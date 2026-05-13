@@ -1,0 +1,106 @@
+examples: 1426
+true COPY: 1320
+true CHANGE: 106
+threshold: 0.5
+
+[Detector report]
+              precision    recall  f1-score   support
+
+        COPY     1.0000    0.7341    0.8467      1320
+      CHANGE     0.2319    1.0000    0.3766       106
+
+    accuracy                         0.7539      1426
+   macro avg     0.6160    0.8670    0.6116      1426
+weighted avg     0.9429    0.7539    0.8117      1426
+
+Confusion matrix:
+[[969 351]
+ [  0 106]]
+
+Summary:
+COPY    precision=100.00 recall=73.41 f1=84.67 support=1320
+CHANGE  precision=23.19 recall=100.00 f1=37.66 support=106
+
+[False positives: predicted CHANGE but gold COPY]
+raw="pues norm="pues prob_change=0.711 left=los right=si"con
+raw=si"con norm=si"con prob_change=0.713 left="pues right=los
+raw=despertado norm=despertado prob_change=0.891 left=ha right=mi
+raw=@jose_rojasoliva norm=@jose_rojasoliva prob_change=0.667 left=mi right=ya
+raw=contenta norm=contenta prob_change=0.894 left=estoy right=todo
+raw=@evita_vallekas norm=@evita_vallekas prob_change=0.574 left=<BOS> right=ajajajajajaa
+raw=cosas norm=cosas prob_change=0.890 left=más right=faltan
+raw=faltan norm=faltan prob_change=0.900 left=cosas right=por
+raw=monarquía?. norm=monarquía?. prob_change=0.671 left=la right=<EOS>
+raw=amiga norm=amiga prob_change=0.896 left=es right=mía,
+raw=mía, norm=mía, prob_change=0.700 left=amiga right=cuando
+raw=esperas norm=esperas prob_change=0.878 left=te right=va
+raw=sorprende, norm=sorprende, prob_change=0.646 left=te right=a
+raw=digamos norm=digamos prob_change=0.879 left=mí right=que
+raw=demostrado norm=demostrado prob_change=0.888 left=ha right=también
+raw=¿cómo norm=¿cómo prob_change=0.618 left=<BOS> right=no
+raw=gustar norm=gustar prob_change=0.881 left=puede right=este
+raw=hombre? norm=hombre? prob_change=0.684 left=este right=http://t.co/ynppbljuxo
+raw=#diamundialdelautismo norm=#diamundialdelautismo prob_change=0.627 left=el right=esta
+raw=estadio norm=estadio prob_change=0.890 left=el right=mediterráneo
+raw=mediterráneo norm=mediterráneo prob_change=0.896 left=estadio right=tendrá
+raw=tendrá norm=tendrá prob_change=0.880 left=mediterráneo right=una
+raw=iluminación norm=iluminación prob_change=0.877 left=una right=especialmente
+raw=especialmente norm=especialmente prob_change=0.869 left=iluminación right=dedicado
+raw=dedicado norm=dedicado prob_change=0.887 left=especialmente right=a
+raw=ellos. norm=ellos. prob_change=0.657 left=a right=<EOS>
+raw=dejar norm=dejar prob_change=0.859 left=de right=de
+raw=comerlas. norm=comerlas. prob_change=0.620 left=de right=<EOS>
+raw=cabra norm=cabra prob_change=0.896 left=eres right=?
+raw=ase!! norm=ase!! prob_change=0.545 left=q right=<EOS>
+raw=tiempos norm=tiempos prob_change=0.894 left=qué right=aquellos
+raw=aquellos norm=aquellos prob_change=0.925 left=tiempos right=<EOS>
+raw=convirtiendo norm=convirtiendo prob_change=0.875 left=estoy right=en
+raw=sentimientos. norm=sentimientos. prob_change=0.667 left=sin right=<EOS>
+raw=intentas norm=intentas prob_change=0.890 left=lo right=no
+raw=podrás norm=podrás prob_change=0.867 left=no right=averiguarlo!
+raw=averiguarlo! norm=averiguarlo! prob_change=0.685 left=podrás right=:)
+raw=...si norm=...si prob_change=0.657 left=perfectooo right=sale
+raw=propuesto...x norm=propuesto...x prob_change=0.631 left=han right=finnnn
+raw=reir norm=reir prob_change=0.888 left=podremosss right=d
+raw=hijo norm=hijo prob_change=0.941 left=mi right=y
+raw=muero norm=muero prob_change=0.884 left=que right=si
+raw=roce norm=roce prob_change=0.894 left=el right=de
+raw=junto norm=junto prob_change=0.900 left=cuerpo right=a
+raw=#platero norm=#platero prob_change=0.646 left=mi!!!! right=<EOS>
+raw=él norm=él prob_change=0.838 left=#lavidaesmásfácilcuando right=esta
+raw=lado. norm=lado. prob_change=0.815 left=mi right=<EOS>
+raw=rojas norm=rojas prob_change=0.892 left=@mace_44 right=verdes
+raw=verdes norm=verdes prob_change=0.889 left=rojas right=y
+raw=amarillas!, norm=amarillas!, prob_change=0.545 left=y right=ami
+raw=ami norm=ami prob_change=0.984 left=amarillas!, right=me
+raw=gustan norm=gustan prob_change=0.899 left=me right=las
+raw=jajajajajajaja!, norm=jajajajajajaja!, prob_change=0.556 left=pastillas!!!! right=que
+raw=risas norm=risas prob_change=0.855 left=de right=por
+raw=dios! norm=dios! prob_change=0.684 left=por right=xddddd
+raw=xddddd norm=xddddd prob_change=0.966 left=dios! right=<EOS>
+raw=coger norm=coger prob_change=0.876 left=a right=y
+raw=vais norm=vais prob_change=0.888 left=me right=a
+raw=vecino norm=vecino prob_change=0.884 left=del right=...
+raw=suyo norm=suyo prob_change=0.887 left=el right=viene
+raw=hizo norm=hizo prob_change=0.889 left=te right=daño
+raw=pasado, norm=pasado, prob_change=0.728 left=el right=pero
+raw=olvides norm=olvides prob_change=0.893 left=jamás right=lo
+raw=enseñó. norm=enseñó. prob_change=0.603 left=te right=<EOS>
+raw=estado norm=estado prob_change=0.874 left=eh right=con
+raw=@officialcritika norm=@officialcritika prob_change=0.718 left=<BOS> right=a
+raw=dreamer's norm=dreamer's prob_change=0.711 left=las right=#unmesdreamerscys
+raw=#unmesdreamerscys norm=#unmesdreamerscys prob_change=0.627 left=dreamer's right=y
+raw=@officialsaik norm=@officialsaik prob_change=0.722 left=a right=:)
+raw=@pabloalboran norm=@pabloalboran prob_change=0.628 left=@oscarmartinez76 right=@cadena100
+raw=intriga! norm=intriga! prob_change=0.674 left=la right=jaja
+raw=nervios!! norm=nervios!! prob_change=0.566 left=que right=:)
+raw=lado. norm=lado. prob_change=0.686 left=tu right=<EOS>
+raw=me.hace norm=me.hace prob_change=0.742 left=mami right=estos
+raw=desayunos norm=desayunos prob_change=0.892 left=estos right=da
+raw=gusto norm=gusto prob_change=0.864 left=da right=quedarse
+raw=quedarse norm=quedarse prob_change=0.922 left=gusto right=malita
+raw=malita norm=malita prob_change=0.950 left=quedarse right=en
+raw=abe norm=abe prob_change=0.885 left=jajajaja right=cuando
+raw=conmigo norm=conmigo prob_change=0.891 left=vienes right=un
+
+[False negatives: predicted COPY but gold CHANGE]

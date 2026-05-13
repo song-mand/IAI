@@ -1,0 +1,124 @@
+
+[MFR baseline]
+Total tokens:              1426
+Changed tokens:            106
+Changed rate:              7.43%
+Baseline acc.(LAI):        92.57
+Accuracy:                  93.76
+ERR:                       16.04
+Changed token accuracy:    17.92
+Unchanged preservation:    99.85
+Over-change rate:          0.15
+device: cuda
+
+[Direct ByT5 baseline]
+Total tokens:              1426
+Changed tokens:            106
+Changed rate:              7.43%
+Baseline acc.(LAI):        92.57
+Accuracy:                  65.36
+ERR:                       -366.04
+Changed token accuracy:    51.89
+Unchanged preservation:    66.44
+Over-change rate:          33.56
+
+Hybrid decision counts:
+  detector_copy            871
+  byt5_requested           387
+  byt5_change              380
+  protected_copy           146
+  mfr_change               22
+  byt5_rejected_copy       7
+
+[Hybrid: detector_mfr_byt5]
+Total tokens:              1426
+Changed tokens:            106
+Changed rate:              7.43%
+Baseline acc.(LAI):        92.57
+Accuracy:                  86.75
+ERR:                       -78.30
+Changed token accuracy:    60.38
+Unchanged preservation:    88.86
+Over-change rate:          11.14
+
+Error examples: raw -> gold / pred
+encantodo -> encantado / encantodo
+"pues -> "pues / pues
+si"con -> si"con / sí"con
+ajajajajajaa -> ja / tu
+faltan -> faltan / .
+monarquía?. -> monarquía?. / .
+esperas -> esperas / así_que
+sorprende, -> sorprende, / te
+digamos -> digamos / así_que
+tendrá -> tendrá / diamundialdelautismo
+especialmente -> especialmente / diamundialdelautismo
+dedicado -> dedicado / delautismo
+ellos. -> ellos. / diamundialdelautismo
+comerlas. -> comerlas. / comerlas
+cabra -> cabra / eres
+tiempos -> tiempos / qué
+aquellos -> aquellos / aquéllos
+sentimientos. -> sentimientos. / .
+coxinooooo -> cochino / coxinooooo
+antoniojajaj -> antonio_ja / como
+diaaa -> día / ...si
+propuesto...x -> propuesto...x / propuesto...
+lado. -> lado. / lavidaesmásfácil
+rojas -> rojas / ja
+verdes -> verdes / ja
+amarillas!, -> amarillas!, / ja
+ami -> ami / ja
+jajajajajajaja!, -> jajajajajajaja!, / jajajajajajajaja
+risas -> risas / ja
+suyo -> suyo / el
+pasado, -> pasado, / el
+enseñó. -> enseñó. / .
+estado -> estado / eh
+tequieromucho -> te_quiero_mucho / ¡elenarb15
+intriga! -> intriga! / cadena
+lado. -> lado. / tu
+diita -> diíta / un
+institutos? -> institutos? / mariacortes?
+cosas, -> cosas, / pero
+jajajpero -> ja_pero / sergiomrqz10
+hubiera -> hubiera / sergiomrqz10
+llamda -> llamada / sergiomrqz10
+hubieras -> hubieras / me
+retuiteao -> retuiteado / tuiteado
+:s -> :s / ...
+increíble. -> increíble. / eres
+ojiyo -> ojillo / qué_eso
+"me -> "me / me
+trayó -> tragó / me
+jodido" -> jodido" / jodido
+sabia -> sabia / sabio
+importara -> importara / tío
+shine -> shine / :)
+acoustic -> acoustic / :)
+dormistes -> dormiste / yo
+largittaa -> larguita / yo
+kee -> qué / qué_es
+imbeciles -> imbéciles / imbeciles
+mismo. -> mismo. / mismo
+perdido, -> perdido, / y
+ganar, -> ganar, / ,
+&lt;3 -> &lt;3 / lt;3
+tamagochi -> tamagotchi / el
+sordo. -> sordo. / sordo
+bajare -> bajare / yo
+pa -> pa / para
+mayo... -> mayo... / ...
+junio -> junio / ...
+preparando -> preparando / algo
+hablar. -> hablar. / .
+listas -> listas / .
+ron, -> ron, / .
+vatios -> vatios / cola
+enhorabuena -> enhorabuena / enhorabueno
+cuidarle -> cuidarle / a
+mas.... -> mas.... / yo
+piazon -> piazón / piazé?
+fuera? -> fuera? / fuero?
+qué? -> qué? / qué??
+mesecitos -> mesecitos / davidbecerra

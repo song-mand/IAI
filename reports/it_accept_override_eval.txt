@@ -1,0 +1,114 @@
+
+[MFR baseline]
+Total tokens:              2483
+Changed tokens:            147
+Changed rate:              5.92%
+Baseline acc.(LAI):        94.08
+Accuracy:                  94.72
+ERR:                       10.88
+Changed token accuracy:    17.01
+Unchanged preservation:    99.61
+Over-change rate:          0.39
+loading accept override model: ./models_it_monoise_accept_override/it_accept_override.joblib
+
+Accept decision counts:
+  base_copy                    2442
+  base_mfr_change              39
+  override_accept              2
+  accept_source_lookup         2
+  accept_source_original       2
+  accept_source_key            2
+  accept_source_case           2
+
+[MFR-first + learned accept override]
+Total tokens:              2483
+Changed tokens:            147
+Changed rate:              5.92%
+Baseline acc.(LAI):        94.08
+Accuracy:                  94.64
+ERR:                       9.52
+Changed token accuracy:    15.65
+Unchanged preservation:    99.61
+Over-change rate:          0.39
+
+Error examples: raw -> gold / pred
+imazzoli -> Imazzoli / imazzoli
+La -> la / La
+Dall' -> dall' / Dall'
+Tg24 -> TG24 / Tg24
+Potere -> potere / Potere
+e' -> e' / è
+cosi -> così / cosi
+Repubblica -> Repubblica / repubblica
+Pdl -> Pdl / PdL
+stò -> sto / stò
+del -> dell / del
+E' -> È / è
+Suite -> Suite / suite
+condividere -> Condividere / condividere
+far -> fare / far
+si -> sia / si
+cosi -> così / cosi
+vabbe -> vabbè / vabbe
+nella -> nela / nella
+TOP -> top / TOP
+TI -> Ti / ti
+RENDI -> rendi / RENDI
+CONTO -> conto / CONTO
+Xchè -> perché / Xchè
+èStataPremiataUna -> è stata premiata una / èStataPremiataUna
+cosi -> così / cosi
+WhoWantsToLiveForever -> Who Wants To Live Forever / WhoWantsToLiveForever
+cmq -> comunque / cmq
+Gia -> già / Gia
+diGianni -> di Gianni / diGianni
+Governo -> governo / Governo
+Conflitto -> conflitto / Conflitto
+Interessi -> interessi / Interessi
+nominato -> Nominato / nominato
+gorverno -> governo / gorverno
+Premier -> premier / Premier
+PASSERA -> passera / PASSERA
+c' -> C' / c'
+capopolo -> capopopolo / capopolo
+Intoppi -> intoppi / Intoppi
+SuperMario -> Super Mario / SuperMario
+e' -> e' / è
+uomo -> Uomo / uomo
+tigre -> Tigre / tigre
+monfo -> mondo / monfo
+slai -> SLAI / slai
+Province -> province / Province
+rai1 -> Rai 1 / rai1
+SKY -> Sky / SKY
+uccidetevi -> uccidervi / uccidetevi
+Si -> Sì / Si
+EuroBANCA -> Eurobanca / EuroBANCA
+cagato -> cacato / cagato
+HOLY -> Holy / HOLY
+SHIT -> shit / SHIT
+E' -> È / è
+Intercettato -> intercettato / Intercettato
+pare -> Pare / pare
+abbian -> abbiano / abbiamo
+ricari… -> ricariche / ricari…
+Cimitero -> cimitero / Cimitero
+Professor -> Professor / professor
+on. -> onorevole / on.
+sembra -> Sembra / sembra
+titolo -> titolo / Titolo
+cerco -> Cerco / cerco
+tener -> tenere / tener
+convice -> convince / convice
+kazzata -> cazzata / kazzata
+stamattina -> Stamattina / stamattina
+give -> Give / give
+dio -> Dio / dio
+è -> È / è
+STUPENDO -> stupendo / STUPENDO
+Governo -> governo / Governo
+EU -> Europa / EU
+MERCATO -> Mercato / MERCATO
+BRANCA -> Branca / BRANCA
+ZARATE -> Zarate / ZARATE
+Uffa -> uffa / Uffa

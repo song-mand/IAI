@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+.cache/
+*.log
+
+# Hugging Face / model cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Large model / output folders
+final_model_eval_es/
+final_model_eval_it/
+models_it_monoise/
+models_it_monoise_accept_override/
+models_it_monoise_case_accept_override/
+models_it_monoise_case_candidates/
+models_it_monoise_extend_candidates/
+models_it_monoise_extend_candidates_accept/
+detectors/
+
+# Split / generated evaluation data
+eval_splits_es/
+eval_splits_it/
+eval_splits_it_monoise/
+eval_splits_it_accept_override/
+eval_splits_it_case_accept/
+eval_splits_it_extend_candidates/
+
+# Reports can be included or ignored.
+# Uncomment this if you do not want reports uploaded.
+# reports/
+
+# Large data files
+*.parquet
+*.arrow
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors

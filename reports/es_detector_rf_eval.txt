@@ -1,0 +1,89 @@
+examples: 1421
+true COPY: 1309
+true CHANGE: 112
+threshold: 0.5
+
+[Detector report]
+              precision    recall  f1-score   support
+
+        COPY     0.9554    0.9985    0.9765      1309
+      CHANGE     0.9623    0.4554    0.6182       112
+
+    accuracy                         0.9557      1421
+   macro avg     0.9588    0.7269    0.7973      1421
+weighted avg     0.9559    0.9557    0.9482      1421
+
+Confusion matrix:
+[[1307    2]
+ [  61   51]]
+
+Summary:
+COPY    precision=95.54 recall=99.85 f1=97.65 support=1309
+CHANGE  precision=96.23 recall=45.54 f1=61.82 support=112
+
+[False positives: predicted CHANGE but gold COPY]
+raw=pa norm=pa prob_change=0.597 left=bajare right=el
+raw=jajajaj norm=jajajaj prob_change=0.639 left=@danmanso91 right=si
+
+[False negatives: predicted COPY but gold CHANGE]
+raw=piemontese norm=piamontesa prob_change=0.462 left=" right="
+raw=graciaas norm=gracias prob_change=0.453 left=jaja right=feaa
+raw=traere norm=traeré prob_change=0.456 left=:) right=algunos
+raw=regalilloss norm=regalillos prob_change=0.476 left=algunos right=y
+raw=pasarmeloo norm=pasármelo prob_change=0.490 left=a right=como
+raw=mui norm=muy prob_change=0.462 left=es right=interesante
+raw=lio norm=lío prob_change=0.447 left=k right=lio
+raw=lio norm=lío prob_change=0.462 left=lio right=...
+raw=isabel norm=isabella prob_change=0.448 left=did right=and
+raw=metias norm=metías prob_change=0.447 left=debajo right=el
+raw=devolvia norm=devolvía prob_change=0.463 left=te right=la
+raw=lasombradelolivo norm=la_sombra_del_olivo prob_change=0.450 left=tenis right=<EOS>
+raw=pedrin norm=pedrín prob_change=0.466 left=con right=pedrete
+raw=merecias norm=merecías prob_change=0.451 left=te right=por
+raw=tds norm=todos prob_change=0.450 left=d right=,
+raw=compi norm=compañero prob_change=0.466 left=menos right=.
+raw=semama norm=semana prob_change=0.458 left=una right=inmejorable,
+raw=tranquileo norm=tranquilidad prob_change=0.462 left=quiero right=del
+raw=siges norm=sigues prob_change=0.457 left=patri right=con
+raw=alvaero norm=alvaro prob_change=0.462 left=con right=?
+raw=tss norm=chis prob_change=0.468 left=puta.. right=<EOS>
+raw=amoss norm=vamos prob_change=0.475 left=" right=adri
+raw=muack norm=mua prob_change=0.460 left=:) right=l
+raw=aggg norm=ah prob_change=0.468 left=<BOS> right=74.280
+raw=jaen norm=jaén prob_change=0.487 left=en.el.paro.en. right=.una.cifra
+raw=catastrofica norm=catastrófica prob_change=0.457 left=.una.cifra right=.
+raw=poblacion norm=población prob_change=0.464 left=la right=#yovoyaemigraryamismo
+raw=mñna norm=mañana prob_change=0.459 left=loquiii right=me
+raw=tenho norm=tengo prob_change=0.454 left=no right=clase
+raw=huuuuyy norm=uy prob_change=0.466 left=<BOS> right=como
+raw=firefoxos norm=firefox_os prob_change=0.457 left=, right=y
+raw=primoo norm=primo prob_change=0.491 left=aviso right=ajajajjaja
+raw=ajajajjaja norm=ja prob_change=0.464 left=primoo right=me
+raw=partoo norm=parto prob_change=0.492 left=me right=:)
+raw=twitaaaah norm=twitter prob_change=0.475 left=el right=<EOS>
+raw=aseh norm=haces prob_change=0.459 left=tu right=<EOS>
+raw=haria norm=haría prob_change=0.465 left=lo right=<EOS>
+raw=pechá norm=pechada prob_change=0.462 left=la right=q
+raw=sandungero norm=sandunguero prob_change=0.455 left=el right=jajajjaja
+raw=cumpleee norm=cumpleaños prob_change=0.498 left=mi right=<EOS>
+raw=mio norm=mío prob_change=0.457 left=dios right=!
+raw=libradoo norm=librado prob_change=0.483 left=hemos right=de
+raw=nochess norm=noches prob_change=0.477 left=buenas right=pequeñooo
+raw=muacks norm=mua prob_change=0.471 left=!! right=!
+raw=dspue norm=después prob_change=0.457 left=si right=abandonas!!
+raw=asiquee norm=así_que prob_change=0.485 left=:') right=ya
+raw=hooy norm=hoy prob_change=0.451 left=tocaa right=:)
+raw=envie norm=envíe prob_change=0.462 left=lo right=por
+raw=puebli norm=pueblo prob_change=0.491 left=al right=!
+raw=rt's norm=rts prob_change=0.418 left=los right=de
+raw=boooonico norm=bonico prob_change=0.472 left=que right=l
+raw=jajajajajes norm=ja prob_change=0.496 left=@guijo_gomez right=si
+raw=tequieroo norm=te_quiero prob_change=0.494 left=:)) right=<EOS>
+raw=graciias norm=gracias prob_change=0.453 left=@anngeleescastro right=grandullonaa
+raw=claroo norm=claro prob_change=0.489 left=jajajajajaj right=q
+raw=tee norm=te prob_change=0.470 left=jajajaj right=quierooo
+raw=graciias norm=gracias prob_change=0.471 left=quierooo right=!!
+raw=teneis norm=tenéis prob_change=0.472 left=que right=dentro
+raw=señooooor norm=señor prob_change=0.472 left=explotar right=<EOS>
+raw=ptos norm=puntos prob_change=0.458 left=23 right=/
+raw=rbts norm=rebotes prob_change=0.457 left=5 right=/

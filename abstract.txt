@@ -1,0 +1,20 @@
+Python 3.8 or higher is needed.
+An environment with an NVIDIA GPU(CUDA) enabled ,is highly recommended for training speed.
+Ensure both Python scripts (train_western.py and sub.py) are placed in the same working directory.
+
+Open your terminal, navigate to your working directory, and run the following command to install all packages at once.
+
+pip install torch transformers datasets peft tqdm sentencepiece accelerate
+#this may cause several errors based on your environment, I recommend to use virtual environment(e.g. conda) for your convenience.
+
+I think when setting is finished, if you run 
+python train_western.py && python sub.py
+it should make several models and submission.zip file in your directory.
+
+If you want to select specific languages ​​and train them using your desired method (or any additional methods you have added besides the two existing ones), you only need to modify the strategy dictionary at the top of the train file and the target_languages ​​list inside main.
+
+You can run the application by leaving only the desired languages ​​and methods in these two spaces.
+
+I think it will be better to start with it and es languages..
+
+utils.py is just given file. It may help us to develop some tools(?) to check err or something.
