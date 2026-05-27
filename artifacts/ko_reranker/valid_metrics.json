@@ -1,0 +1,9 @@
+{
+  "total": 1880.0,
+  "accuracy": 0.9228723404255319,
+  "lai": 0.9117021276595745,
+  "err": 0.12650602409638528,
+  "changed_gold": 166.0,
+  "changed_pred": 37.0,
+  "changed_correct": 27.0
+}

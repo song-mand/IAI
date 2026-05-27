@@ -1,0 +1,14 @@
+{
+  "best_config": {
+    "name": "R1_mfr_only",
+    "use_casefold": false,
+    "use_diacritics": false,
+    "use_repeat": false,
+    "use_abbrev": false,
+    "C": 1.0
+  },
+  "threshold": 0.3,
+  "lai": 0.9269078687067015,
+  "accuracy": 0.9395905818869628,
+  "err": 0.17190441983916976
+}

@@ -1,0 +1,53 @@
+{
+  "args": {
+    "dataset": "weerayut/multilexnorm2026-dev-pub",
+    "train_split": "train",
+    "eval_split": "test",
+    "all_langs": "en,da,de,es,hr,it,nl,sl,sr,tr,iden,trde,id,ja,ko,th,vi",
+    "lang": "th",
+    "seed": 42,
+    "resource_path": "models/th/th_resources.pkl",
+    "detector_path": "models/th/th_detector.joblib",
+    "byt5_model_path": "final_model/th_byt5_candidate",
+    "submission_dir": "submission_files",
+    "zip_path": "submission.zip",
+    "debug_path": "submission_files/th_debug_samples.json",
+    "use_detector": 0,
+    "use_byt5": 1,
+    "use_rules": 0,
+    "use_errdict": 0,
+    "use_mfr_candidate": 0,
+    "detector_threshold": "0.00",
+    "byt5_threshold": 0.0,
+    "min_mfr_conf": 0.8,
+    "force_mfr_conf": 1.01,
+    "min_mfr_count": 2,
+    "accept_score_min": -4.0,
+    "max_edit_ratio": 10.0,
+    "byt5_bonus": 5.0,
+    "require_correct_dict_for_byt5": 0,
+    "protect_nonthai": 1,
+    "max_rule_candidates": 8,
+    "max_errdict_candidates": 5,
+    "input_format": "natural",
+    "max_input_length": 160,
+    "max_new_tokens": 32,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "batch_size": 64,
+    "print_examples": 80,
+    "print_lang_metrics": 1,
+    "detector_threshold_resolved": 0.0
+  },
+  "stats": {
+    "source_counter": {
+      "keep": 20418
+    },
+    "reject_reasons": {},
+    "changed_tokens": 0,
+    "byt5_called_tokens": 0,
+    "blocked_with_candidates": 0,
+    "candidate_count_total": 0
+  },
+  "samples": []
+}

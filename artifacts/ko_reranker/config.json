@@ -1,0 +1,11 @@
+{
+  "lang": "ko",
+  "alpha": 0.5,
+  "ml_weight": 1.0,
+  "prior_weight": 0.25,
+  "identity_bonus": 0.02,
+  "changed_rate_guard": 0.05,
+  "low_change_keep_raw_bonus": 0.12,
+  "window": 3,
+  "include_identity_candidate": true
+}

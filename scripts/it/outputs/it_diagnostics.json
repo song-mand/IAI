@@ -1,0 +1,3929 @@
+{
+  "lang": "it",
+  "method": "exact_mfr_with_identity_tie_break",
+  "train_summary": {
+    "sentences": 593,
+    "tokens": 12645,
+    "changed_tokens": 926,
+    "changed_rate": 0.07323052589956505,
+    "top_raw_tokens": [
+      [
+        ".",
+        366
+      ],
+      [
+        ",",
+        304
+      ],
+      [
+        ":",
+        228
+      ],
+      [
+        "Monti",
+        220
+      ],
+      [
+        "di",
+        212
+      ],
+      [
+        "e",
+        202
+      ],
+      [
+        "del",
+        180
+      ],
+      [
+        "il",
+        164
+      ],
+      [
+        "governo",
+        154
+      ],
+      [
+        "a",
+        139
+      ],
+      [
+        "è",
+        128
+      ],
+      [
+        "la",
+        126
+      ],
+      [
+        "che",
+        118
+      ],
+      [
+        "?",
+        116
+      ],
+      [
+        "della",
+        101
+      ],
+      [
+        "\"",
+        98
+      ],
+      [
+        "!",
+        91
+      ],
+      [
+        "Mario",
+        83
+      ],
+      [
+        "per",
+        80
+      ],
+      [
+        "al",
+        78
+      ],
+      [
+        "...",
+        78
+      ],
+      [
+        "#Grillo",
+        76
+      ],
+      [
+        "un",
+        75
+      ],
+      [
+        "alla",
+        72
+      ],
+      [
+        "in",
+        68
+      ],
+      [
+        "non",
+        68
+      ],
+      [
+        "l'",
+        67
+      ],
+      [
+        "i",
+        63
+      ],
+      [
+        "dei",
+        60
+      ],
+      [
+        "Governo",
+        54
+      ],
+      [
+        "-",
+        51
+      ],
+      [
+        "ma",
+        51
+      ],
+      [
+        "ha",
+        47
+      ],
+      [
+        "#Monti",
+        45
+      ],
+      [
+        "da",
+        45
+      ],
+      [
+        "Il",
+        44
+      ],
+      [
+        "all'",
+        43
+      ],
+      [
+        "le",
+        42
+      ],
+      [
+        "si",
+        42
+      ],
+      [
+        "(",
+        41
+      ],
+      [
+        "RT",
+        41
+      ],
+      [
+        "con",
+        41
+      ],
+      [
+        ")",
+        40
+      ],
+      [
+        "anche",
+        40
+      ],
+      [
+        "La",
+        39
+      ],
+      [
+        "una",
+        37
+      ],
+      [
+        "nel",
+        37
+      ],
+      [
+        "se",
+        32
+      ],
+      [
+        "dell'",
+        32
+      ],
+      [
+        "Italia",
+        31
+      ]
+    ],
+    "top_norm_tokens": [
+      [
+        ".",
+        366
+      ],
+      [
+        ",",
+        304
+      ],
+      [
+        "Monti",
+        242
+      ],
+      [
+        ":",
+        228
+      ],
+      [
+        "di",
+        217
+      ],
+      [
+        "e",
+        204
+      ],
+      [
+        "del",
+        183
+      ],
+      [
+        "governo",
+        170
+      ],
+      [
+        "il",
+        168
+      ],
+      [
+        "è",
+        152
+      ],
+      [
+        "a",
+        140
+      ],
+      [
+        "che",
+        131
+      ],
+      [
+        "la",
+        129
+      ],
+      [
+        "?",
+        116
+      ],
+      [
+        "della",
+        105
+      ],
+      [
+        "\"",
+        98
+      ],
+      [
+        "!",
+        91
+      ],
+      [
+        "non",
+        91
+      ],
+      [
+        "Mario",
+        90
+      ],
+      [
+        "per",
+        86
+      ],
+      [
+        "al",
+        81
+      ],
+      [
+        "...",
+        78
+      ],
+      [
+        "un",
+        77
+      ],
+      [
+        "#Grillo",
+        76
+      ],
+      [
+        "alla",
+        73
+      ],
+      [
+        "in",
+        72
+      ],
+      [
+        "l'",
+        68
+      ],
+      [
+        "i",
+        67
+      ],
+      [
+        "dei",
+        63
+      ],
+      [
+        "ma",
+        52
+      ],
+      [
+        "-",
+        51
+      ],
+      [
+        "Il",
+        48
+      ],
+      [
+        "da",
+        47
+      ],
+      [
+        "ha",
+        47
+      ],
+      [
+        "all'",
+        45
+      ],
+      [
+        "#Monti",
+        45
+      ],
+      [
+        "le",
+        44
+      ],
+      [
+        "Governo",
+        44
+      ],
+      [
+        "con",
+        44
+      ],
+      [
+        "(",
+        41
+      ],
+      [
+        "RT",
+        41
+      ],
+      [
+        ")",
+        40
+      ],
+      [
+        "anche",
+        40
+      ],
+      [
+        "una",
+        39
+      ],
+      [
+        "La",
+        38
+      ],
+      [
+        "Italia",
+        37
+      ],
+      [
+        "nel",
+        37
+      ],
+      [
+        "si",
+        37
+      ],
+      [
+        "se",
+        32
+      ],
+      [
+        "dell'",
+        32
+      ]
+    ],
+    "top_gold_changes": [
+      {
+        "raw": "monti",
+        "norm": "Monti",
+        "count": 15
+      },
+      {
+        "raw": "nn",
+        "norm": "non",
+        "count": 14
+      },
+      {
+        "raw": "é",
+        "norm": "è",
+        "count": 13
+      },
+      {
+        "raw": "Governo",
+        "norm": "governo",
+        "count": 12
+      },
+      {
+        "raw": "e'",
+        "norm": "è",
+        "count": 8
+      },
+      {
+        "raw": "NON",
+        "norm": "non",
+        "count": 7
+      },
+      {
+        "raw": "MONTI",
+        "norm": "Monti",
+        "count": 7
+      },
+      {
+        "raw": "I",
+        "norm": "i",
+        "count": 6
+      },
+      {
+        "raw": "E",
+        "norm": "e",
+        "count": 6
+      },
+      {
+        "raw": "CHE",
+        "norm": "che",
+        "count": 6
+      },
+      {
+        "raw": "Si",
+        "norm": "Sì",
+        "count": 6
+      },
+      {
+        "raw": "perchè",
+        "norm": "perché",
+        "count": 6
+      },
+      {
+        "raw": "ROMA",
+        "norm": "Roma",
+        "count": 5
+      },
+      {
+        "raw": "GOVERNO",
+        "norm": "governo",
+        "count": 5
+      },
+      {
+        "raw": "ke",
+        "norm": "che",
+        "count": 5
+      },
+      {
+        "raw": "x",
+        "norm": "per",
+        "count": 5
+      },
+      {
+        "raw": "IL",
+        "norm": "il",
+        "count": 5
+      },
+      {
+        "raw": "E'",
+        "norm": "È",
+        "count": 5
+      },
+      {
+        "raw": "La",
+        "norm": "la",
+        "count": 4
+      },
+      {
+        "raw": "nov",
+        "norm": "novembre",
+        "count": 4
+      },
+      {
+        "raw": "DEL",
+        "norm": "del",
+        "count": 4
+      },
+      {
+        "raw": "gia",
+        "norm": "già",
+        "count": 4
+      },
+      {
+        "raw": "MARIO",
+        "norm": "Mario",
+        "count": 4
+      },
+      {
+        "raw": "ITALIA",
+        "norm": "Italia",
+        "count": 4
+      },
+      {
+        "raw": "Of",
+        "norm": "of",
+        "count": 4
+      },
+      {
+        "raw": "de",
+        "norm": "di",
+        "count": 4
+      },
+      {
+        "raw": "MALE",
+        "norm": "male",
+        "count": 3
+      },
+      {
+        "raw": "DEI",
+        "norm": "dei",
+        "count": 3
+      },
+      {
+        "raw": "è",
+        "norm": "È",
+        "count": 3
+      },
+      {
+        "raw": "Cmq",
+        "norm": "Comunque",
+        "count": 3
+      },
+      {
+        "raw": "E'",
+        "norm": "è",
+        "count": 3
+      },
+      {
+        "raw": "IN",
+        "norm": "in",
+        "count": 3
+      },
+      {
+        "raw": "puo'",
+        "norm": "può",
+        "count": 3
+      },
+      {
+        "raw": "Cgil",
+        "norm": "CGIL",
+        "count": 3
+      },
+      {
+        "raw": "Cisl",
+        "norm": "CISL",
+        "count": 3
+      },
+      {
+        "raw": "Uil",
+        "norm": "UIL",
+        "count": 3
+      },
+      {
+        "raw": "niall",
+        "norm": "Niall",
+        "count": 3
+      },
+      {
+        "raw": "cosi",
+        "norm": "così",
+        "count": 3
+      },
+      {
+        "raw": "mario",
+        "norm": "Mario",
+        "count": 3
+      },
+      {
+        "raw": "AL",
+        "norm": "al",
+        "count": 3
+      },
+      {
+        "raw": "Pd",
+        "norm": "PD",
+        "count": 3
+      },
+      {
+        "raw": "Beppeee",
+        "norm": "Beppe",
+        "count": 3
+      },
+      {
+        "raw": "COME",
+        "norm": "come",
+        "count": 3
+      },
+      {
+        "raw": "App",
+        "norm": "app",
+        "count": 3
+      },
+      {
+        "raw": "Vinci",
+        "norm": "vinci",
+        "count": 3
+      },
+      {
+        "raw": "Serie",
+        "norm": "serie",
+        "count": 3
+      },
+      {
+        "raw": "la",
+        "norm": "La",
+        "count": 2
+      },
+      {
+        "raw": "IL",
+        "norm": "Il",
+        "count": 2
+      },
+      {
+        "raw": "LA",
+        "norm": "la",
+        "count": 2
+      },
+      {
+        "raw": "SULLA",
+        "norm": "sulla",
+        "count": 2
+      },
+      {
+        "raw": "si",
+        "norm": "Sì",
+        "count": 2
+      },
+      {
+        "raw": "one",
+        "norm": "One",
+        "count": 2
+      },
+      {
+        "raw": "direction",
+        "norm": "Direction",
+        "count": 2
+      },
+      {
+        "raw": "iphone",
+        "norm": "iPhone",
+        "count": 2
+      },
+      {
+        "raw": "POLITICA",
+        "norm": "Politica",
+        "count": 2
+      },
+      {
+        "raw": "perche'",
+        "norm": "perché",
+        "count": 2
+      },
+      {
+        "raw": "DELLA",
+        "norm": "della",
+        "count": 2
+      },
+      {
+        "raw": "HANNO",
+        "norm": "hanno",
+        "count": 2
+      },
+      {
+        "raw": "SKY",
+        "norm": "Sky",
+        "count": 2
+      },
+      {
+        "raw": "si",
+        "norm": "sì",
+        "count": 2
+      },
+      {
+        "raw": "BERLUSCONI",
+        "norm": "Berlusconi",
+        "count": 2
+      },
+      {
+        "raw": "SULL'",
+        "norm": "sull'",
+        "count": 2
+      },
+      {
+        "raw": "PER",
+        "norm": "per",
+        "count": 2
+      },
+      {
+        "raw": "UN",
+        "norm": "un",
+        "count": 2
+      },
+      {
+        "raw": "info",
+        "norm": "informazioni",
+        "count": 2
+      },
+      {
+        "raw": "LIVE",
+        "norm": "live",
+        "count": 2
+      },
+      {
+        "raw": "Vittorie",
+        "norm": "vittorie",
+        "count": 2
+      },
+      {
+        "raw": "Gol",
+        "norm": "gol",
+        "count": 2
+      },
+      {
+        "raw": "VITA",
+        "norm": "vita",
+        "count": 2
+      },
+      {
+        "raw": "pero'",
+        "norm": "però",
+        "count": 2
+      },
+      {
+        "raw": "dx",
+        "norm": "destra",
+        "count": 2
+      },
+      {
+        "raw": "sx",
+        "norm": "sinistra",
+        "count": 2
+      },
+      {
+        "raw": "Presidente",
+        "norm": "presidente",
+        "count": 2
+      },
+      {
+        "raw": "Consiglio",
+        "norm": "consiglio",
+        "count": 2
+      },
+      {
+        "raw": "EuroBANCA",
+        "norm": "Eurobanca",
+        "count": 2
+      },
+      {
+        "raw": "italia",
+        "norm": "Italia",
+        "count": 2
+      },
+      {
+        "raw": "RENASCER",
+        "norm": "Renascer",
+        "count": 2
+      },
+      {
+        "raw": "RESTART",
+        "norm": "Restart",
+        "count": 2
+      },
+      {
+        "raw": "SUL",
+        "norm": "sul",
+        "count": 2
+      },
+      {
+        "raw": "transloco",
+        "norm": "trasloco",
+        "count": 2
+      },
+      {
+        "raw": "Paese",
+        "norm": "paese",
+        "count": 2
+      },
+      {
+        "raw": "Che",
+        "norm": "che",
+        "count": 2
+      },
+      {
+        "raw": "Tg24",
+        "norm": "TG24",
+        "count": 2
+      },
+      {
+        "raw": "sti",
+        "norm": "questi",
+        "count": 2
+      },
+      {
+        "raw": "passera",
+        "norm": "Passera",
+        "count": 2
+      },
+      {
+        "raw": "e",
+        "norm": "è",
+        "count": 2
+      },
+      {
+        "raw": "santoro",
+        "norm": "Santoro",
+        "count": 2
+      },
+      {
+        "raw": "Repubblica",
+        "norm": "repubblica",
+        "count": 2
+      },
+      {
+        "raw": "DI",
+        "norm": "di",
+        "count": 2
+      },
+      {
+        "raw": "Rai",
+        "norm": "RAI",
+        "count": 2
+      },
+      {
+        "raw": "vorrei",
+        "norm": "Vorrei",
+        "count": 2
+      },
+      {
+        "raw": "e",
+        "norm": "E",
+        "count": 2
+      },
+      {
+        "raw": "i",
+        "norm": "I",
+        "count": 2
+      },
+      {
+        "raw": "cn",
+        "norm": "con",
+        "count": 2
+      },
+      {
+        "raw": "Tg1",
+        "norm": "TG1",
+        "count": 2
+      },
+      {
+        "raw": "LOST",
+        "norm": "Lost",
+        "count": 2
+      },
+      {
+        "raw": "Maggio",
+        "norm": "maggio",
+        "count": 2
+      },
+      {
+        "raw": "far",
+        "norm": "fare",
+        "count": 2
+      },
+      {
+        "raw": "ne",
+        "norm": "né",
+        "count": 2
+      },
+      {
+        "raw": "opposiz",
+        "norm": "opposizione",
+        "count": 2
+      }
+    ]
+  },
+  "mfr_analysis": {
+    "raw_type_count": 4619,
+    "identity_mapping_count": 4052,
+    "changed_mapping_count": 567,
+    "ambiguous_mapping_count": 116,
+    "top_changed_mappings": [
+      {
+        "raw": "monti",
+        "chosen": "Monti",
+        "count": 15,
+        "total": 18,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "Monti": 15,
+          "monti": 3
+        }
+      },
+      {
+        "raw": "nn",
+        "chosen": "non",
+        "count": 14,
+        "total": 14,
+        "confidence": 1.0,
+        "candidates": {
+          "non": 14
+        }
+      },
+      {
+        "raw": "é",
+        "chosen": "è",
+        "count": 13,
+        "total": 13,
+        "confidence": 1.0,
+        "candidates": {
+          "è": 13
+        }
+      },
+      {
+        "raw": "e'",
+        "chosen": "è",
+        "count": 8,
+        "total": 12,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "è": 8,
+          "e'": 4
+        }
+      },
+      {
+        "raw": "NON",
+        "chosen": "non",
+        "count": 7,
+        "total": 7,
+        "confidence": 1.0,
+        "candidates": {
+          "non": 7
+        }
+      },
+      {
+        "raw": "MONTI",
+        "chosen": "Monti",
+        "count": 7,
+        "total": 8,
+        "confidence": 0.875,
+        "candidates": {
+          "Monti": 7,
+          "monti": 1
+        }
+      },
+      {
+        "raw": "perchè",
+        "chosen": "perché",
+        "count": 6,
+        "total": 6,
+        "confidence": 1.0,
+        "candidates": {
+          "perché": 6
+        }
+      },
+      {
+        "raw": "CHE",
+        "chosen": "che",
+        "count": 6,
+        "total": 6,
+        "confidence": 1.0,
+        "candidates": {
+          "che": 6
+        }
+      },
+      {
+        "raw": "Si",
+        "chosen": "Sì",
+        "count": 6,
+        "total": 10,
+        "confidence": 0.6,
+        "candidates": {
+          "Sì": 6,
+          "Si": 4
+        }
+      },
+      {
+        "raw": "ke",
+        "chosen": "che",
+        "count": 5,
+        "total": 5,
+        "confidence": 1.0,
+        "candidates": {
+          "che": 5
+        }
+      },
+      {
+        "raw": "GOVERNO",
+        "chosen": "governo",
+        "count": 5,
+        "total": 5,
+        "confidence": 1.0,
+        "candidates": {
+          "governo": 5
+        }
+      },
+      {
+        "raw": "ROMA",
+        "chosen": "Roma",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "Roma": 5,
+          "Rome": 1
+        }
+      },
+      {
+        "raw": "x",
+        "chosen": "per",
+        "count": 5,
+        "total": 7,
+        "confidence": 0.7142857142857143,
+        "candidates": {
+          "per": 5,
+          "x": 2
+        }
+      },
+      {
+        "raw": "IL",
+        "chosen": "il",
+        "count": 5,
+        "total": 7,
+        "confidence": 0.7142857142857143,
+        "candidates": {
+          "il": 5,
+          "Il": 2
+        }
+      },
+      {
+        "raw": "E'",
+        "chosen": "È",
+        "count": 5,
+        "total": 8,
+        "confidence": 0.625,
+        "candidates": {
+          "È": 5,
+          "è": 3
+        }
+      },
+      {
+        "raw": "nov",
+        "chosen": "novembre",
+        "count": 4,
+        "total": 4,
+        "confidence": 1.0,
+        "candidates": {
+          "novembre": 4
+        }
+      },
+      {
+        "raw": "gia",
+        "chosen": "già",
+        "count": 4,
+        "total": 4,
+        "confidence": 1.0,
+        "candidates": {
+          "già": 4
+        }
+      },
+      {
+        "raw": "MARIO",
+        "chosen": "Mario",
+        "count": 4,
+        "total": 4,
+        "confidence": 1.0,
+        "candidates": {
+          "Mario": 4
+        }
+      },
+      {
+        "raw": "DEL",
+        "chosen": "del",
+        "count": 4,
+        "total": 4,
+        "confidence": 1.0,
+        "candidates": {
+          "del": 4
+        }
+      },
+      {
+        "raw": "de",
+        "chosen": "di",
+        "count": 4,
+        "total": 6,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "di": 4,
+          "de": 2
+        }
+      },
+      {
+        "raw": "puo'",
+        "chosen": "può",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "può": 3
+        }
+      },
+      {
+        "raw": "niall",
+        "chosen": "Niall",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "Niall": 3
+        }
+      },
+      {
+        "raw": "mario",
+        "chosen": "Mario",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "Mario": 3
+        }
+      },
+      {
+        "raw": "cosi",
+        "chosen": "così",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "così": 3
+        }
+      },
+      {
+        "raw": "Uil",
+        "chosen": "UIL",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "UIL": 3
+        }
+      },
+      {
+        "raw": "Serie",
+        "chosen": "serie",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "serie": 3
+        }
+      },
+      {
+        "raw": "MALE",
+        "chosen": "male",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "male": 3
+        }
+      },
+      {
+        "raw": "IN",
+        "chosen": "in",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "in": 3
+        }
+      },
+      {
+        "raw": "DEI",
+        "chosen": "dei",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "dei": 3
+        }
+      },
+      {
+        "raw": "Cisl",
+        "chosen": "CISL",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "CISL": 3
+        }
+      },
+      {
+        "raw": "Cgil",
+        "chosen": "CGIL",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "CGIL": 3
+        }
+      },
+      {
+        "raw": "COME",
+        "chosen": "come",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "come": 3
+        }
+      },
+      {
+        "raw": "Beppeee",
+        "chosen": "Beppe",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "Beppe": 3
+        }
+      },
+      {
+        "raw": "App",
+        "chosen": "app",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "app": 3
+        }
+      },
+      {
+        "raw": "AL",
+        "chosen": "al",
+        "count": 3,
+        "total": 3,
+        "confidence": 1.0,
+        "candidates": {
+          "al": 3
+        }
+      },
+      {
+        "raw": "Vinci",
+        "chosen": "vinci",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "vinci": 3,
+          "Vinci": 1
+        }
+      },
+      {
+        "raw": "Pd",
+        "chosen": "PD",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "PD": 3,
+          "Pd": 1
+        }
+      },
+      {
+        "raw": "Cmq",
+        "chosen": "Comunque",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "Comunque": 3,
+          "Cpmunque": 1
+        }
+      },
+      {
+        "raw": "transloco",
+        "chosen": "trasloco",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "trasloco": 2
+        }
+      },
+      {
+        "raw": "sti",
+        "chosen": "questi",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "questi": 2
+        }
+      },
+      {
+        "raw": "santoro",
+        "chosen": "Santoro",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Santoro": 2
+        }
+      },
+      {
+        "raw": "qnti",
+        "chosen": "quanti",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "quanti": 2
+        }
+      },
+      {
+        "raw": "pero'",
+        "chosen": "però",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "però": 2
+        }
+      },
+      {
+        "raw": "perche'",
+        "chosen": "perché",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "perché": 2
+        }
+      },
+      {
+        "raw": "opposiz",
+        "chosen": "opposizione",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "opposizione": 2
+        }
+      },
+      {
+        "raw": "one",
+        "chosen": "One",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "One": 2
+        }
+      },
+      {
+        "raw": "iphone",
+        "chosen": "iPhone",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "iPhone": 2
+        }
+      },
+      {
+        "raw": "dx",
+        "chosen": "destra",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "destra": 2
+        }
+      },
+      {
+        "raw": "direction",
+        "chosen": "Direction",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Direction": 2
+        }
+      },
+      {
+        "raw": "cn",
+        "chosen": "con",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "con": 2
+        }
+      },
+      {
+        "raw": "Vittorie",
+        "chosen": "vittorie",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "vittorie": 2
+        }
+      },
+      {
+        "raw": "VITA",
+        "chosen": "vita",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "vita": 2
+        }
+      },
+      {
+        "raw": "UN",
+        "chosen": "un",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "un": 2
+        }
+      },
+      {
+        "raw": "Tg24",
+        "chosen": "TG24",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "TG24": 2
+        }
+      },
+      {
+        "raw": "Tg1",
+        "chosen": "TG1",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "TG1": 2
+        }
+      },
+      {
+        "raw": "SULLA",
+        "chosen": "sulla",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "sulla": 2
+        }
+      },
+      {
+        "raw": "SULL'",
+        "chosen": "sull'",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "sull'": 2
+        }
+      },
+      {
+        "raw": "SUL",
+        "chosen": "sul",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "sul": 2
+        }
+      },
+      {
+        "raw": "SKY",
+        "chosen": "Sky",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Sky": 2
+        }
+      },
+      {
+        "raw": "Rai",
+        "chosen": "RAI",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "RAI": 2
+        }
+      },
+      {
+        "raw": "RESTART",
+        "chosen": "Restart",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Restart": 2
+        }
+      },
+      {
+        "raw": "RENASCER",
+        "chosen": "Renascer",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Renascer": 2
+        }
+      },
+      {
+        "raw": "POLITICA",
+        "chosen": "Politica",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Politica": 2
+        }
+      },
+      {
+        "raw": "PER",
+        "chosen": "per",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "per": 2
+        }
+      },
+      {
+        "raw": "Maggio",
+        "chosen": "maggio",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "maggio": 2
+        }
+      },
+      {
+        "raw": "LOST",
+        "chosen": "Lost",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Lost": 2
+        }
+      },
+      {
+        "raw": "LIVE",
+        "chosen": "live",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "live": 2
+        }
+      },
+      {
+        "raw": "HANNO",
+        "chosen": "hanno",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "hanno": 2
+        }
+      },
+      {
+        "raw": "Euro",
+        "chosen": "Europa",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Europa": 2
+        }
+      },
+      {
+        "raw": "DI",
+        "chosen": "di",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "di": 2
+        }
+      },
+      {
+        "raw": "DELLA",
+        "chosen": "della",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "della": 2
+        }
+      },
+      {
+        "raw": "BERLUSCONI",
+        "chosen": "Berlusconi",
+        "count": 2,
+        "total": 2,
+        "confidence": 1.0,
+        "candidates": {
+          "Berlusconi": 2
+        }
+      },
+      {
+        "raw": "sx",
+        "chosen": "sinistra",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "sinistra": 2,
+          "sinistro": 1
+        }
+      },
+      {
+        "raw": "passera",
+        "chosen": "Passera",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "Passera": 2,
+          "passera": 1
+        }
+      },
+      {
+        "raw": "info",
+        "chosen": "informazioni",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "informazioni": 2,
+          "info": 1
+        }
+      },
+      {
+        "raw": "Set",
+        "chosen": "set",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "set": 2,
+          "Set": 1
+        }
+      },
+      {
+        "raw": "Gol",
+        "chosen": "gol",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "gol": 2,
+          "Gol": 1
+        }
+      },
+      {
+        "raw": "LA",
+        "chosen": "la",
+        "count": 2,
+        "total": 5,
+        "confidence": 0.4,
+        "candidates": {
+          "la": 2,
+          "La": 1,
+          "le": 1,
+          "Los Angeles": 1
+        }
+      },
+      {
+        "raw": "èStataPremiataUna",
+        "chosen": "è stata premiata una",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "è stata premiata una": 1
+        }
+      },
+      {
+        "raw": "zulin",
+        "chosen": "Zulin",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "Zulin": 1
+        }
+      },
+      {
+        "raw": "ztate",
+        "chosen": "state",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "state": 1
+        }
+      },
+      {
+        "raw": "ziete",
+        "chosen": "siete",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "siete": 1
+        }
+      },
+      {
+        "raw": "zeman",
+        "chosen": "Zeman",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "Zeman": 1
+        }
+      },
+      {
+        "raw": "youtubers",
+        "chosen": "youtuber",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "youtuber": 1
+        }
+      },
+      {
+        "raw": "xké",
+        "chosen": "perché",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "perché": 1
+        }
+      },
+      {
+        "raw": "xchè",
+        "chosen": "perché",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "perché": 1
+        }
+      },
+      {
+        "raw": "whazza",
+        "chosen": "WhatsApp",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "WhatsApp": 1
+        }
+      },
+      {
+        "raw": "vuoi",
+        "chosen": "Vuoi",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "Vuoi": 1
+        }
+      },
+      {
+        "raw": "voltaa",
+        "chosen": "volta",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "volta": 1
+        }
+      },
+      {
+        "raw": "vabbe",
+        "chosen": "vabbè",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "vabbè": 1
+        }
+      },
+      {
+        "raw": "utlizzo",
+        "chosen": "utilizzo",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "utilizzo": 1
+        }
+      },
+      {
+        "raw": "unidea",
+        "chosen": "un' idea",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "un' idea": 1
+        }
+      },
+      {
+        "raw": "uccidetevi",
+        "chosen": "uccidervi",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "uccidervi": 1
+        }
+      },
+      {
+        "raw": "twitter",
+        "chosen": "Twitter",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "Twitter": 1
+        }
+      },
+      {
+        "raw": "tuttu",
+        "chosen": "tutto",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "tutto": 1
+        }
+      },
+      {
+        "raw": "tutteeeeee",
+        "chosen": "tutte",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "tutte": 1
+        }
+      },
+      {
+        "raw": "tuo/oi",
+        "chosen": "tuo tuoi",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "tuo tuoi": 1
+        }
+      },
+      {
+        "raw": "tt",
+        "chosen": "tutte",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "tutte": 1
+        }
+      },
+      {
+        "raw": "trasm",
+        "chosen": "trasmissioni",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "trasmissioni": 1
+        }
+      },
+      {
+        "raw": "tornera'",
+        "chosen": "tornerà",
+        "count": 1,
+        "total": 1,
+        "confidence": 1.0,
+        "candidates": {
+          "tornerà": 1
+        }
+      }
+    ],
+    "top_ambiguous_mappings": [
+      {
+        "raw": "si",
+        "chosen": "si",
+        "count": 37,
+        "total": 42,
+        "confidence": 0.8809523809523809,
+        "candidates": {
+          "si": 37,
+          "Sì": 2,
+          "sì": 2,
+          "sia": 1
+        }
+      },
+      {
+        "raw": "LA",
+        "chosen": "la",
+        "count": 2,
+        "total": 5,
+        "confidence": 0.4,
+        "candidates": {
+          "la": 2,
+          "La": 1,
+          "le": 1,
+          "Los Angeles": 1
+        }
+      },
+      {
+        "raw": "e",
+        "chosen": "e",
+        "count": 198,
+        "total": 202,
+        "confidence": 0.9801980198019802,
+        "candidates": {
+          "e": 198,
+          "è": 2,
+          "E": 2
+        }
+      },
+      {
+        "raw": "del",
+        "chosen": "del",
+        "count": 178,
+        "total": 180,
+        "confidence": 0.9888888888888889,
+        "candidates": {
+          "del": 178,
+          "dell": 1,
+          "dEL": 1
+        }
+      },
+      {
+        "raw": "il",
+        "chosen": "il",
+        "count": 161,
+        "total": 164,
+        "confidence": 0.9817073170731707,
+        "candidates": {
+          "il": 161,
+          "Il": 2,
+          "Ol": 1
+        }
+      },
+      {
+        "raw": "la",
+        "chosen": "la",
+        "count": 123,
+        "total": 126,
+        "confidence": 0.9761904761904762,
+        "candidates": {
+          "la": 123,
+          "La": 2,
+          "della": 1
+        }
+      },
+      {
+        "raw": "Un",
+        "chosen": "Un",
+        "count": 5,
+        "total": 7,
+        "confidence": 0.7142857142857143,
+        "candidates": {
+          "Un": 5,
+          "un": 1,
+          "Un'": 1
+        }
+      },
+      {
+        "raw": "li",
+        "chosen": "li",
+        "count": 4,
+        "total": 6,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "li": 4,
+          "Li": 1,
+          "lì": 1
+        }
+      },
+      {
+        "raw": "di",
+        "chosen": "di",
+        "count": 211,
+        "total": 212,
+        "confidence": 0.9952830188679245,
+        "candidates": {
+          "di": 211,
+          "Di": 1
+        }
+      },
+      {
+        "raw": "governo",
+        "chosen": "governo",
+        "count": 152,
+        "total": 154,
+        "confidence": 0.987012987012987,
+        "candidates": {
+          "governo": 152,
+          "Governo": 2
+        }
+      },
+      {
+        "raw": "a",
+        "chosen": "a",
+        "count": 138,
+        "total": 139,
+        "confidence": 0.9928057553956835,
+        "candidates": {
+          "a": 138,
+          "al": 1
+        }
+      },
+      {
+        "raw": "è",
+        "chosen": "è",
+        "count": 125,
+        "total": 128,
+        "confidence": 0.9765625,
+        "candidates": {
+          "è": 125,
+          "È": 3
+        }
+      },
+      {
+        "raw": "per",
+        "chosen": "per",
+        "count": 79,
+        "total": 80,
+        "confidence": 0.9875,
+        "candidates": {
+          "per": 79,
+          "Per": 1
+        }
+      },
+      {
+        "raw": "al",
+        "chosen": "al",
+        "count": 77,
+        "total": 78,
+        "confidence": 0.9871794871794872,
+        "candidates": {
+          "al": 77,
+          "all'": 1
+        }
+      },
+      {
+        "raw": "un",
+        "chosen": "un",
+        "count": 74,
+        "total": 75,
+        "confidence": 0.9866666666666667,
+        "candidates": {
+          "un": 74,
+          "un'": 1
+        }
+      },
+      {
+        "raw": "l'",
+        "chosen": "l'",
+        "count": 66,
+        "total": 67,
+        "confidence": 0.9850746268656716,
+        "candidates": {
+          "l'": 66,
+          "L'": 1
+        }
+      },
+      {
+        "raw": "i",
+        "chosen": "i",
+        "count": 61,
+        "total": 63,
+        "confidence": 0.9682539682539683,
+        "candidates": {
+          "i": 61,
+          "I": 2
+        }
+      },
+      {
+        "raw": "Governo",
+        "chosen": "Governo",
+        "count": 42,
+        "total": 54,
+        "confidence": 0.7777777777777778,
+        "candidates": {
+          "Governo": 42,
+          "governo": 12
+        }
+      },
+      {
+        "raw": "ma",
+        "chosen": "ma",
+        "count": 50,
+        "total": 51,
+        "confidence": 0.9803921568627451,
+        "candidates": {
+          "ma": 50,
+          "Ma": 1
+        }
+      },
+      {
+        "raw": "Il",
+        "chosen": "Il",
+        "count": 43,
+        "total": 44,
+        "confidence": 0.9772727272727273,
+        "candidates": {
+          "Il": 43,
+          "il": 1
+        }
+      },
+      {
+        "raw": "con",
+        "chosen": "con",
+        "count": 40,
+        "total": 41,
+        "confidence": 0.975609756097561,
+        "candidates": {
+          "con": 40,
+          "Con": 1
+        }
+      },
+      {
+        "raw": "La",
+        "chosen": "La",
+        "count": 35,
+        "total": 39,
+        "confidence": 0.8974358974358975,
+        "candidates": {
+          "La": 35,
+          "la": 4
+        }
+      },
+      {
+        "raw": "se",
+        "chosen": "se",
+        "count": 31,
+        "total": 32,
+        "confidence": 0.96875,
+        "candidates": {
+          "se": 31,
+          "Se": 1
+        }
+      },
+      {
+        "raw": "Ma",
+        "chosen": "Ma",
+        "count": 22,
+        "total": 23,
+        "confidence": 0.9565217391304348,
+        "candidates": {
+          "Ma": 22,
+          "ma": 1
+        }
+      },
+      {
+        "raw": "io",
+        "chosen": "io",
+        "count": 18,
+        "total": 19,
+        "confidence": 0.9473684210526315,
+        "candidates": {
+          "io": 18,
+          "Io": 1
+        }
+      },
+      {
+        "raw": "monti",
+        "chosen": "Monti",
+        "count": 15,
+        "total": 18,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "Monti": 15,
+          "monti": 3
+        }
+      },
+      {
+        "raw": "Non",
+        "chosen": "Non",
+        "count": 14,
+        "total": 15,
+        "confidence": 0.9333333333333333,
+        "candidates": {
+          "Non": 14,
+          "non": 1
+        }
+      },
+      {
+        "raw": "I",
+        "chosen": "I",
+        "count": 9,
+        "total": 15,
+        "confidence": 0.6,
+        "candidates": {
+          "I": 9,
+          "i": 6
+        }
+      },
+      {
+        "raw": "Che",
+        "chosen": "Che",
+        "count": 12,
+        "total": 14,
+        "confidence": 0.8571428571428571,
+        "candidates": {
+          "Che": 12,
+          "che": 2
+        }
+      },
+      {
+        "raw": "c'",
+        "chosen": "c'",
+        "count": 11,
+        "total": 12,
+        "confidence": 0.9166666666666666,
+        "candidates": {
+          "c'": 11,
+          "C'": 1
+        }
+      },
+      {
+        "raw": "L'",
+        "chosen": "L'",
+        "count": 10,
+        "total": 12,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "L'": 10,
+          "l'": 2
+        }
+      },
+      {
+        "raw": "sta",
+        "chosen": "sta",
+        "count": 10,
+        "total": 12,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "sta": 10,
+          "questa": 2
+        }
+      },
+      {
+        "raw": "e'",
+        "chosen": "è",
+        "count": 8,
+        "total": 12,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "è": 8,
+          "e'": 4
+        }
+      },
+      {
+        "raw": "E",
+        "chosen": "E",
+        "count": 6,
+        "total": 12,
+        "confidence": 0.5,
+        "candidates": {
+          "e": 6,
+          "E": 6
+        }
+      },
+      {
+        "raw": "nella",
+        "chosen": "nella",
+        "count": 10,
+        "total": 11,
+        "confidence": 0.9090909090909091,
+        "candidates": {
+          "nella": 10,
+          "nela": 1
+        }
+      },
+      {
+        "raw": "Of",
+        "chosen": "Of",
+        "count": 7,
+        "total": 11,
+        "confidence": 0.6363636363636364,
+        "candidates": {
+          "Of": 7,
+          "of": 4
+        }
+      },
+      {
+        "raw": "sto",
+        "chosen": "sto",
+        "count": 9,
+        "total": 10,
+        "confidence": 0.9,
+        "candidates": {
+          "sto": 9,
+          "questo": 1
+        }
+      },
+      {
+        "raw": "ne",
+        "chosen": "ne",
+        "count": 8,
+        "total": 10,
+        "confidence": 0.8,
+        "candidates": {
+          "ne": 8,
+          "né": 2
+        }
+      },
+      {
+        "raw": "Si",
+        "chosen": "Sì",
+        "count": 6,
+        "total": 10,
+        "confidence": 0.6,
+        "candidates": {
+          "Sì": 6,
+          "Si": 4
+        }
+      },
+      {
+        "raw": "ancora",
+        "chosen": "ancora",
+        "count": 8,
+        "total": 9,
+        "confidence": 0.8888888888888888,
+        "candidates": {
+          "ancora": 8,
+          "àncora": 1
+        }
+      },
+      {
+        "raw": "È",
+        "chosen": "È",
+        "count": 7,
+        "total": 8,
+        "confidence": 0.875,
+        "candidates": {
+          "È": 7,
+          "è": 1
+        }
+      },
+      {
+        "raw": "fosse",
+        "chosen": "fosse",
+        "count": 7,
+        "total": 8,
+        "confidence": 0.875,
+        "candidates": {
+          "fosse": 7,
+          "Fosse": 1
+        }
+      },
+      {
+        "raw": "MONTI",
+        "chosen": "Monti",
+        "count": 7,
+        "total": 8,
+        "confidence": 0.875,
+        "candidates": {
+          "Monti": 7,
+          "monti": 1
+        }
+      },
+      {
+        "raw": "E'",
+        "chosen": "È",
+        "count": 5,
+        "total": 8,
+        "confidence": 0.625,
+        "candidates": {
+          "È": 5,
+          "è": 3
+        }
+      },
+      {
+        "raw": "ITALIA",
+        "chosen": "ITALIA",
+        "count": 4,
+        "total": 8,
+        "confidence": 0.5,
+        "candidates": {
+          "ITALIA": 4,
+          "Italia": 4
+        }
+      },
+      {
+        "raw": "No",
+        "chosen": "No",
+        "count": 6,
+        "total": 7,
+        "confidence": 0.8571428571428571,
+        "candidates": {
+          "No": 6,
+          "no": 1
+        }
+      },
+      {
+        "raw": "IL",
+        "chosen": "il",
+        "count": 5,
+        "total": 7,
+        "confidence": 0.7142857142857143,
+        "candidates": {
+          "il": 5,
+          "Il": 2
+        }
+      },
+      {
+        "raw": "Paese",
+        "chosen": "Paese",
+        "count": 5,
+        "total": 7,
+        "confidence": 0.7142857142857143,
+        "candidates": {
+          "Paese": 5,
+          "paese": 2
+        }
+      },
+      {
+        "raw": "x",
+        "chosen": "per",
+        "count": 5,
+        "total": 7,
+        "confidence": 0.7142857142857143,
+        "candidates": {
+          "per": 5,
+          "x": 2
+        }
+      },
+      {
+        "raw": "ROMA",
+        "chosen": "Roma",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "Roma": 5,
+          "Rome": 1
+        }
+      },
+      {
+        "raw": "piazza",
+        "chosen": "piazza",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "piazza": 5,
+          "Piazza": 1
+        }
+      },
+      {
+        "raw": "B.",
+        "chosen": "B.",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "B.": 5,
+          "Berlusconi": 1
+        }
+      },
+      {
+        "raw": "Grazie",
+        "chosen": "Grazie",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "Grazie": 5,
+          "grazie": 1
+        }
+      },
+      {
+        "raw": "premier",
+        "chosen": "premier",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "premier": 5,
+          "Premier": 1
+        }
+      },
+      {
+        "raw": "sembra",
+        "chosen": "sembra",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "sembra": 5,
+          "Sembra": 1
+        }
+      },
+      {
+        "raw": "Da",
+        "chosen": "Da",
+        "count": 5,
+        "total": 6,
+        "confidence": 0.8333333333333334,
+        "candidates": {
+          "Da": 5,
+          "da": 1
+        }
+      },
+      {
+        "raw": "EuroBANCA",
+        "chosen": "EuroBANCA",
+        "count": 4,
+        "total": 6,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "EuroBANCA": 4,
+          "Eurobanca": 2
+        }
+      },
+      {
+        "raw": "Presidente",
+        "chosen": "Presidente",
+        "count": 4,
+        "total": 6,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "Presidente": 4,
+          "presidente": 2
+        }
+      },
+      {
+        "raw": "de",
+        "chosen": "di",
+        "count": 4,
+        "total": 6,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "di": 4,
+          "de": 2
+        }
+      },
+      {
+        "raw": "20",
+        "chosen": "20",
+        "count": 4,
+        "total": 5,
+        "confidence": 0.8,
+        "candidates": {
+          "20": 4,
+          "20:00": 1
+        }
+      },
+      {
+        "raw": "puoi",
+        "chosen": "puoi",
+        "count": 4,
+        "total": 5,
+        "confidence": 0.8,
+        "candidates": {
+          "puoi": 4,
+          "Puoi": 1
+        }
+      },
+      {
+        "raw": "Premier",
+        "chosen": "Premier",
+        "count": 4,
+        "total": 5,
+        "confidence": 0.8,
+        "candidates": {
+          "Premier": 4,
+          "premier": 1
+        }
+      },
+      {
+        "raw": "vorrei",
+        "chosen": "vorrei",
+        "count": 3,
+        "total": 5,
+        "confidence": 0.6,
+        "candidates": {
+          "vorrei": 3,
+          "Vorrei": 2
+        }
+      },
+      {
+        "raw": "Repubblica",
+        "chosen": "Repubblica",
+        "count": 3,
+        "total": 5,
+        "confidence": 0.6,
+        "candidates": {
+          "Repubblica": 3,
+          "repubblica": 2
+        }
+      },
+      {
+        "raw": "Consiglio",
+        "chosen": "Consiglio",
+        "count": 3,
+        "total": 5,
+        "confidence": 0.6,
+        "candidates": {
+          "Consiglio": 3,
+          "consiglio": 2
+        }
+      },
+      {
+        "raw": "A",
+        "chosen": "A",
+        "count": 3,
+        "total": 5,
+        "confidence": 0.6,
+        "candidates": {
+          "A": 3,
+          "a": 2
+        }
+      },
+      {
+        "raw": "domani",
+        "chosen": "domani",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "domani": 3,
+          "Domani": 1
+        }
+      },
+      {
+        "raw": "devo",
+        "chosen": "devo",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "devo": 3,
+          "Devo": 1
+        }
+      },
+      {
+        "raw": "profumo",
+        "chosen": "profumo",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "profumo": 3,
+          "Profumo": 1
+        }
+      },
+      {
+        "raw": "In",
+        "chosen": "In",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "In": 3,
+          "in": 1
+        }
+      },
+      {
+        "raw": "uomo",
+        "chosen": "uomo",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "uomo": 3,
+          "Uomo": 1
+        }
+      },
+      {
+        "raw": "Cmq",
+        "chosen": "Comunque",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "Comunque": 3,
+          "Cpmunque": 1
+        }
+      },
+      {
+        "raw": "Pd",
+        "chosen": "PD",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "PD": 3,
+          "Pd": 1
+        }
+      },
+      {
+        "raw": "Vinci",
+        "chosen": "vinci",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "vinci": 3,
+          "Vinci": 1
+        }
+      },
+      {
+        "raw": "presidente",
+        "chosen": "presidente",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "presidente": 3,
+          "Presidente": 1
+        }
+      },
+      {
+        "raw": "Della",
+        "chosen": "Della",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "Della": 3,
+          "della": 1
+        }
+      },
+      {
+        "raw": "Scarica",
+        "chosen": "Scarica",
+        "count": 3,
+        "total": 4,
+        "confidence": 0.75,
+        "candidates": {
+          "Scarica": 3,
+          "scarica": 1
+        }
+      },
+      {
+        "raw": "far",
+        "chosen": "far",
+        "count": 2,
+        "total": 4,
+        "confidence": 0.5,
+        "candidates": {
+          "far": 2,
+          "fare": 2
+        }
+      },
+      {
+        "raw": "italia",
+        "chosen": "italia",
+        "count": 2,
+        "total": 4,
+        "confidence": 0.5,
+        "candidates": {
+          "Italia": 2,
+          "italia": 2
+        }
+      },
+      {
+        "raw": "Manovra",
+        "chosen": "Manovra",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "Manovra": 2,
+          "manovra": 1
+        }
+      },
+      {
+        "raw": "+",
+        "chosen": "+",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "+": 2,
+          "più": 1
+        }
+      },
+      {
+        "raw": "sud",
+        "chosen": "sud",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "sud": 2,
+          "Sud": 1
+        }
+      },
+      {
+        "raw": "bio",
+        "chosen": "bio",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "bio": 2,
+          "biografia": 1
+        }
+      },
+      {
+        "raw": "passera",
+        "chosen": "Passera",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "Passera": 2,
+          "passera": 1
+        }
+      },
+      {
+        "raw": "info",
+        "chosen": "informazioni",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "informazioni": 2,
+          "info": 1
+        }
+      },
+      {
+        "raw": "Gol",
+        "chosen": "gol",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "gol": 2,
+          "Gol": 1
+        }
+      },
+      {
+        "raw": "pare",
+        "chosen": "pare",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "pare": 2,
+          "Pare": 1
+        }
+      },
+      {
+        "raw": "bel",
+        "chosen": "bel",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "bel": 2,
+          "bell'": 1
+        }
+      },
+      {
+        "raw": "sx",
+        "chosen": "sinistra",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "sinistra": 2,
+          "sinistro": 1
+        }
+      },
+      {
+        "raw": "nominato",
+        "chosen": "nominato",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "nominato": 2,
+          "Nominato": 1
+        }
+      },
+      {
+        "raw": "my",
+        "chosen": "my",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "my": 2,
+          "My": 1
+        }
+      },
+      {
+        "raw": "Set",
+        "chosen": "set",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "set": 2,
+          "Set": 1
+        }
+      },
+      {
+        "raw": "lega",
+        "chosen": "lega",
+        "count": 2,
+        "total": 3,
+        "confidence": 0.6666666666666666,
+        "candidates": {
+          "lega": 2,
+          "Lega": 1
+        }
+      },
+      {
+        "raw": "STO",
+        "chosen": "Sto",
+        "count": 1,
+        "total": 2,
+        "confidence": 0.5,
+        "candidates": {
+          "Sto": 1,
+          "sto": 1
+        }
+      },
+      {
+        "raw": "Suite",
+        "chosen": "Suite",
+        "count": 1,
+        "total": 2,
+        "confidence": 0.5,
+        "candidates": {
+          "suite": 1,
+          "Suite": 1
+        }
+      },
+      {
+        "raw": "Corsera",
+        "chosen": "Corsera",
+        "count": 1,
+        "total": 2,
+        "confidence": 0.5,
+        "candidates": {
+          "Corriere della Sera": 1,
+          "Corsera": 1
+        }
+      },
+      {
+        "raw": "Messaggero.it",
+        "chosen": "Messaggero.it",
+        "count": 1,
+        "total": 2,
+        "confidence": 0.5,
+        "candidates": {
+          "messaggero.it": 1,
+          "Messaggero.it": 1
+        }
+      },
+      {
+        "raw": "Quale",
+        "chosen": "Quale",
+        "count": 1,
+        "total": 2,
+        "confidence": 0.5,
+        "candidates": {
+          "Qual": 1,
+          "Quale": 1
+        }
+      },
+      {
+        "raw": "La7",
+        "chosen": "La7",
+        "count": 1,
+        "total": 2,
+        "confidence": 0.5,
+        "candidates": {
+          "La7": 1,
+          "LA7": 1
+        }
+      },
+      {
+        "raw": "ns",
+        "chosen": "nostro",
+        "count": 1,
+        "total": 2,
+        "confidence": 0.5,
+        "candidates": {
+          "nostro": 1,
+          "nostri": 1
+        }
+      }
+    ]
+  },
+  "prediction_analysis": {
+    "total_tokens": 1053,
+    "changed_tokens": 24,
+    "changed_rate": 0.022792022792022793,
+    "top_applied_changes": [
+      {
+        "raw": "e'",
+        "pred": "è",
+        "count": 2
+      },
+      {
+        "raw": "é",
+        "pred": "è",
+        "count": 2
+      },
+      {
+        "raw": "perchè",
+        "pred": "perché",
+        "count": 2
+      },
+      {
+        "raw": "Si",
+        "pred": "Sì",
+        "count": 2
+      },
+      {
+        "raw": "Perchè",
+        "pred": "Perché",
+        "count": 1
+      },
+      {
+        "raw": "AL",
+        "pred": "al",
+        "count": 1
+      },
+      {
+        "raw": "GOVERNO",
+        "pred": "governo",
+        "count": 1
+      },
+      {
+        "raw": "MONTI",
+        "pred": "Monti",
+        "count": 1
+      },
+      {
+        "raw": "PER",
+        "pred": "per",
+        "count": 1
+      },
+      {
+        "raw": "LA",
+        "pred": "la",
+        "count": 1
+      },
+      {
+        "raw": "IL",
+        "pred": "il",
+        "count": 1
+      },
+      {
+        "raw": "DELLA",
+        "pred": "della",
+        "count": 1
+      },
+      {
+        "raw": "POLITICA",
+        "pred": "Politica",
+        "count": 1
+      },
+      {
+        "raw": "CONTRO",
+        "pred": "contro",
+        "count": 1
+      },
+      {
+        "raw": "LE",
+        "pred": "le",
+        "count": 1
+      },
+      {
+        "raw": "piu'",
+        "pred": "più",
+        "count": 1
+      },
+      {
+        "raw": "nov",
+        "pred": "novembre",
+        "count": 1
+      },
+      {
+        "raw": "perche'",
+        "pred": "perché",
+        "count": 1
+      },
+      {
+        "raw": "x",
+        "pred": "per",
+        "count": 1
+      },
+      {
+        "raw": "DI",
+        "pred": "di",
+        "count": 1
+      }
+    ],
+    "changed_samples": [
+      {
+        "raw_sentence": [
+          "Perchè",
+          "rovinare",
+          "un",
+          "decente",
+          "#governo",
+          "#Monti",
+          "(",
+          "almeno",
+          "nei",
+          "nomi",
+          ")",
+          "con",
+          "Corrado",
+          "#Passera",
+          "?",
+          "(",
+          "e",
+          "parlo",
+          "del",
+          "personaggio",
+          ")",
+          "Speriamo",
+          "bene",
+          "..."
+        ],
+        "pred_sentence": [
+          "Perché",
+          "rovinare",
+          "un",
+          "decente",
+          "#governo",
+          "#Monti",
+          "(",
+          "almeno",
+          "nei",
+          "nomi",
+          ")",
+          "con",
+          "Corrado",
+          "#Passera",
+          "?",
+          "(",
+          "e",
+          "parlo",
+          "del",
+          "personaggio",
+          ")",
+          "Speriamo",
+          "bene",
+          "..."
+        ],
+        "changes": [
+          [
+            "Perchè",
+            "Perché"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "NO",
+          "AL",
+          "GOVERNO",
+          "MONTI",
+          ",",
+          "ELEZIONI",
+          "SUBITO",
+          ".",
+          "PER",
+          "LA",
+          "SOVRANITA'",
+          "POPOLARE",
+          "E",
+          "IL",
+          "PRIMATO",
+          "DELLA",
+          "POLITICA",
+          ",",
+          "CONTRO",
+          "LE",
+          "INGERENZE",
+          "...",
+          "http://t.co/A24NUliu"
+        ],
+        "pred_sentence": [
+          "NO",
+          "al",
+          "governo",
+          "Monti",
+          ",",
+          "ELEZIONI",
+          "SUBITO",
+          ".",
+          "per",
+          "la",
+          "SOVRANITA'",
+          "POPOLARE",
+          "E",
+          "il",
+          "PRIMATO",
+          "della",
+          "Politica",
+          ",",
+          "contro",
+          "le",
+          "INGERENZE",
+          "...",
+          "http://t.co/A24NUliu"
+        ],
+        "changes": [
+          [
+            "AL",
+            "al"
+          ],
+          [
+            "GOVERNO",
+            "governo"
+          ],
+          [
+            "MONTI",
+            "Monti"
+          ],
+          [
+            "PER",
+            "per"
+          ],
+          [
+            "LA",
+            "la"
+          ],
+          [
+            "IL",
+            "il"
+          ],
+          [
+            "DELLA",
+            "della"
+          ],
+          [
+            "POLITICA",
+            "Politica"
+          ],
+          [
+            "CONTRO",
+            "contro"
+          ],
+          [
+            "LE",
+            "le"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "Governo",
+          ":",
+          "Fini",
+          ",",
+          "Monti",
+          "personalita'",
+          "piu'",
+          "adeguata",
+          "a",
+          "affrontare",
+          "crisi",
+          ":",
+          "Roma",
+          ",",
+          "10",
+          "nov",
+          ".",
+          "(",
+          "Adnkronos",
+          ")",
+          "?",
+          "Mario",
+          "Monti",
+          "e'",
+          "l...",
+          "http://t.co/pqImjVew"
+        ],
+        "pred_sentence": [
+          "Governo",
+          ":",
+          "Fini",
+          ",",
+          "Monti",
+          "personalita'",
+          "più",
+          "adeguata",
+          "a",
+          "affrontare",
+          "crisi",
+          ":",
+          "Roma",
+          ",",
+          "10",
+          "novembre",
+          ".",
+          "(",
+          "Adnkronos",
+          ")",
+          "?",
+          "Mario",
+          "Monti",
+          "è",
+          "l...",
+          "http://t.co/pqImjVew"
+        ],
+        "changes": [
+          [
+            "piu'",
+            "più"
+          ],
+          [
+            "nov",
+            "novembre"
+          ],
+          [
+            "e'",
+            "è"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "Lo",
+          "so",
+          ",",
+          "è",
+          "cattivo",
+          "e",
+          "ininfluente",
+          ",",
+          "ma",
+          "il",
+          "governo",
+          "Monti",
+          "é",
+          "composto",
+          "da",
+          "brutta",
+          "gente",
+          ",",
+          "brutti",
+          "più",
+          "della",
+          "malattia",
+          ".",
+          "Saranno",
+          "bravi",
+          "eh",
+          ",",
+          "ma",
+          "brutti"
+        ],
+        "pred_sentence": [
+          "Lo",
+          "so",
+          ",",
+          "è",
+          "cattivo",
+          "e",
+          "ininfluente",
+          ",",
+          "ma",
+          "il",
+          "governo",
+          "Monti",
+          "è",
+          "composto",
+          "da",
+          "brutta",
+          "gente",
+          ",",
+          "brutti",
+          "più",
+          "della",
+          "malattia",
+          ".",
+          "Saranno",
+          "bravi",
+          "eh",
+          ",",
+          "ma",
+          "brutti"
+        ],
+        "changes": [
+          [
+            "é",
+            "è"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "“",
+          "dovrei",
+          "ringraziare",
+          "scooby",
+          "doo",
+          ",",
+          "perchè",
+          "è",
+          "grazie",
+          "a",
+          "lui",
+          "se",
+          "ho",
+          "imparato",
+          "che",
+          "i",
+          "veri",
+          "mostri",
+          "sono",
+          "le",
+          "persone",
+          ".",
+          "”"
+        ],
+        "pred_sentence": [
+          "“",
+          "dovrei",
+          "ringraziare",
+          "scooby",
+          "doo",
+          ",",
+          "perché",
+          "è",
+          "grazie",
+          "a",
+          "lui",
+          "se",
+          "ho",
+          "imparato",
+          "che",
+          "i",
+          "veri",
+          "mostri",
+          "sono",
+          "le",
+          "persone",
+          ".",
+          "”"
+        ],
+        "changes": [
+          [
+            "perchè",
+            "perché"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "sosteniamo",
+          "il",
+          "governo",
+          "Monti",
+          "che",
+          "affronta",
+          "l'",
+          "emergenza",
+          ",",
+          "perche'",
+          "sappiamo",
+          "che",
+          "e'",
+          "l'",
+          "unica",
+          "possibile",
+          "alternativa",
+          "al",
+          "fallimento",
+          "dell'",
+          "Italia"
+        ],
+        "pred_sentence": [
+          "sosteniamo",
+          "il",
+          "governo",
+          "Monti",
+          "che",
+          "affronta",
+          "l'",
+          "emergenza",
+          ",",
+          "perché",
+          "sappiamo",
+          "che",
+          "è",
+          "l'",
+          "unica",
+          "possibile",
+          "alternativa",
+          "al",
+          "fallimento",
+          "dell'",
+          "Italia"
+        ],
+        "changes": [
+          [
+            "perche'",
+            "perché"
+          ],
+          [
+            "e'",
+            "è"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "Fai",
+          "un",
+          "ordine",
+          "il",
+          "negoziante",
+          "firma",
+          "conferma",
+          "Il",
+          "pagament",
+          "60",
+          "/",
+          "90",
+          "/",
+          "120",
+          "/",
+          "150",
+          "/",
+          "180",
+          "/",
+          "210",
+          "giorni",
+          "alla",
+          "prima",
+          "scadenza",
+          "tel",
+          "x",
+          "chiedere",
+          "Di",
+          "spostare",
+          "il",
+          "60",
+          "/",
+          "90"
+        ],
+        "pred_sentence": [
+          "Fai",
+          "un",
+          "ordine",
+          "il",
+          "negoziante",
+          "firma",
+          "conferma",
+          "Il",
+          "pagament",
+          "60",
+          "/",
+          "90",
+          "/",
+          "120",
+          "/",
+          "150",
+          "/",
+          "180",
+          "/",
+          "210",
+          "giorni",
+          "alla",
+          "prima",
+          "scadenza",
+          "tel",
+          "per",
+          "chiedere",
+          "Di",
+          "spostare",
+          "il",
+          "60",
+          "/",
+          "90"
+        ],
+        "changes": [
+          [
+            "x",
+            "per"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "#Grillo",
+          "non",
+          "è",
+          "#antipolitica",
+          ".",
+          "È",
+          "#politica",
+          "di",
+          "chi",
+          "non",
+          "vuole",
+          "più",
+          "parassiti",
+          ",",
+          "ladri",
+          ",",
+          "puttane",
+          "e",
+          "leccaculo",
+          "alla",
+          "testa",
+          "del",
+          "Paese",
+          ".",
+          "È",
+          "troppo",
+          "?",
+          "Si",
+          "può",
+          "?"
+        ],
+        "pred_sentence": [
+          "#Grillo",
+          "non",
+          "è",
+          "#antipolitica",
+          ".",
+          "È",
+          "#politica",
+          "di",
+          "chi",
+          "non",
+          "vuole",
+          "più",
+          "parassiti",
+          ",",
+          "ladri",
+          ",",
+          "puttane",
+          "e",
+          "leccaculo",
+          "alla",
+          "testa",
+          "del",
+          "Paese",
+          ".",
+          "È",
+          "troppo",
+          "?",
+          "Sì",
+          "può",
+          "?"
+        ],
+        "changes": [
+          [
+            "Si",
+            "Sì"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "Si",
+          "all'",
+          "Europa",
+          "no",
+          "all'",
+          "EuroBANCA",
+          "!",
+          "No",
+          "a",
+          "Mario",
+          "Monti",
+          "#nomonti",
+          "@angealfa",
+          "@AzioneUni",
+          "@alepontecorvo",
+          "@cinelliandreany",
+          "@ChiaraColosimo"
+        ],
+        "pred_sentence": [
+          "Sì",
+          "all'",
+          "Europa",
+          "no",
+          "all'",
+          "EuroBANCA",
+          "!",
+          "No",
+          "a",
+          "Mario",
+          "Monti",
+          "#nomonti",
+          "@angealfa",
+          "@AzioneUni",
+          "@alepontecorvo",
+          "@cinelliandreany",
+          "@ChiaraColosimo"
+        ],
+        "changes": [
+          [
+            "Si",
+            "Sì"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "@silviapasquero",
+          "#Grillo",
+          "non",
+          "vuole",
+          "il",
+          "bene",
+          "dell'",
+          "#Italia",
+          ",",
+          "vuole",
+          "entrare",
+          "nella",
+          "#Casta",
+          "perchè",
+          "gli",
+          "fanno",
+          "comodo",
+          "12000",
+          "euro",
+          "al",
+          "mese",
+          "di",
+          "più",
+          "..."
+        ],
+        "pred_sentence": [
+          "@silviapasquero",
+          "#Grillo",
+          "non",
+          "vuole",
+          "il",
+          "bene",
+          "dell'",
+          "#Italia",
+          ",",
+          "vuole",
+          "entrare",
+          "nella",
+          "#Casta",
+          "perché",
+          "gli",
+          "fanno",
+          "comodo",
+          "12000",
+          "euro",
+          "al",
+          "mese",
+          "di",
+          "più",
+          "..."
+        ],
+        "changes": [
+          [
+            "perchè",
+            "perché"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "DI",
+          "RUSCIO",
+          ":",
+          "ritengo",
+          "ingiusto",
+          "il",
+          "decreto",
+          "varato",
+          "dal",
+          "Governo",
+          "Monti"
+        ],
+        "pred_sentence": [
+          "di",
+          "RUSCIO",
+          ":",
+          "ritengo",
+          "ingiusto",
+          "il",
+          "decreto",
+          "varato",
+          "dal",
+          "Governo",
+          "Monti"
+        ],
+        "changes": [
+          [
+            "DI",
+            "di"
+          ]
+        ]
+      },
+      {
+        "raw_sentence": [
+          "Credo",
+          "che",
+          "Mario",
+          "Monti",
+          "abbia",
+          "dei",
+          "seri",
+          "problemi",
+          "con",
+          "l'",
+          "italiano",
+          "...",
+          "secondo",
+          "me",
+          "si",
+          "é",
+          "confuso",
+          "con",
+          "la",
+          "parola",
+          "utopico",
+          "piuttosto",
+          "che",
+          "monotono",
+          "!"
+        ],
+        "pred_sentence": [
+          "Credo",
+          "che",
+          "Mario",
+          "Monti",
+          "abbia",
+          "dei",
+          "seri",
+          "problemi",
+          "con",
+          "l'",
+          "italiano",
+          "...",
+          "secondo",
+          "me",
+          "si",
+          "è",
+          "confuso",
+          "con",
+          "la",
+          "parola",
+          "utopico",
+          "piuttosto",
+          "che",
+          "monotono",
+          "!"
+        ],
+        "changes": [
+          [
+            "é",
+            "è"
+          ]
+        ]
+      }
+    ]
+  }
+}
