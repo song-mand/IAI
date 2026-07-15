@@ -49,7 +49,7 @@ TRAIN_BEFORE_SUBMISSION=1
 # Example:
 #   If TRAIN_LANGS="es", only es_model and es_change_detector_rf.joblib are updated.
 #   Existing it/western models are kept.
-TRAIN_LANGS="es"
+TRAIN_LANGS="it"
 
 echo "=============================="
 echo "0. Check files and packages"
@@ -107,7 +107,7 @@ if [ "$TRAIN_BEFORE_SUBMISSION" = "1" ]; then
     --seed "$TRAIN_SEED" \
     --batch_size "$BATCH_SIZE" \
     --no_train_western \
-    --es_it_langs "$TRAIN_LANGS"
+    #--es_it_langs "$TRAIN_LANGS"
 else
   echo "Skip training because TRAIN_BEFORE_SUBMISSION=0"
 fi

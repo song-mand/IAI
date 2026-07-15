@@ -15,22 +15,22 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 # Western languages follow train_western.py.
 STRATEGY = {
-    "da": "natural",
-    "en": "natural",
-    "sl": "natural",
-    "sr": "natural",
-    "hr": "natural",
-    "iden": "natural",
-    "de": "sentinel",
-    "nl": "sentinel",
-    "tr": "sentinel",
-    "trde": "sentinel",
+    "da": "mfr",
+    "en": "mfr",
+    "sl": "mfr",
+    "sr": "mfr",
+    "hr": "mfr",
+    "iden": "mfr",
+    "de": "mfr",
+    "nl": "mfr",
+    "tr": "mfr",
+    "trde": "mfr",
     "id": "mfr",
     "ja": "mfr",
     "ko": "mfr",
     "th": "mfr",
     "vi": "mfr",
-    "es": "hybrid_rf_byt5",
+    "es": "mfr",
     "it": "hybrid_rf_byt5",
 }
 
@@ -47,8 +47,8 @@ HYBRID_CONFIG = {
     "it": {
         "detector_path": "./detectors/it_change_detector_rf.joblib",
         "model_path": "./final_model/it_model",
-        "threshold": 0.55,
-        "mfr_min_conf": 0.65,
+        "threshold": 0.75,
+        "mfr_min_conf": 0.80,
     },
 }
 

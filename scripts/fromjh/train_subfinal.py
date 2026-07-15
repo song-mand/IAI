@@ -75,7 +75,7 @@ ES_IT_STRATEGY = {
 # Subfinal setting requested by user.
 UNCHANGED_KEEP_PROB = {
     "es": 0.8,
-    "it": 0.2,
+    "it": 0.8,
 }
 
 EPOCHS_ES_IT = {
@@ -85,7 +85,7 @@ EPOCHS_ES_IT = {
 
 LEARNING_RATE_ES_IT = {
     "es": 1e-5,
-    "it": 1e-5,
+    "it": 5e-5,
 }
 
 DETECTOR_PARAMS = {
@@ -95,7 +95,7 @@ DETECTOR_PARAMS = {
     "min_samples_split": 4,
     "max_features": "sqrt",
     "class_weight": "custom",
-    "change_weight": 3.0,
+    "change_weight": 3.5,
 }
 
 

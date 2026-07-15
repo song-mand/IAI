@@ -1,0 +1,13 @@
+# Machine Learning & Deep Learning Core
+torch
+numpy
+scikit-learn
+
+# Model & Data Management (Hugging Face)
+transformers
+datasets
+peft
+
+# Utilities
+joblib
+tqdm
